@@ -1,0 +1,16 @@
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\typeconversions\bin\Debug\net5.0\typeconversions.exe
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\typeconversions\bin\Debug\net5.0\typeconversions.deps.json
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\typeconversions\bin\Debug\net5.0\typeconversions.runtimeconfig.json
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\typeconversions\bin\Debug\net5.0\typeconversions.runtimeconfig.dev.json
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\typeconversions\bin\Debug\net5.0\typeconversions.dll
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\typeconversions\bin\Debug\net5.0\ref\typeconversions.dll
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\typeconversions\bin\Debug\net5.0\typeconversions.pdb
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\typeconversions\obj\Debug\net5.0\typeconversions.csproj.AssemblyReference.cache
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\typeconversions\obj\Debug\net5.0\typeconversions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\typeconversions\obj\Debug\net5.0\typeconversions.AssemblyInfoInputs.cache
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\typeconversions\obj\Debug\net5.0\typeconversions.AssemblyInfo.cs
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\typeconversions\obj\Debug\net5.0\typeconversions.csproj.CoreCompileInputs.cache
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\typeconversions\obj\Debug\net5.0\typeconversions.dll
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\typeconversions\obj\Debug\net5.0\ref\typeconversions.dll
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\typeconversions\obj\Debug\net5.0\typeconversions.pdb
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\typeconversions\obj\Debug\net5.0\typeconversions.genruntimeconfig.cache
