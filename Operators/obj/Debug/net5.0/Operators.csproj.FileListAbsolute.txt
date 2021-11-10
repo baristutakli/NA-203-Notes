@@ -1,0 +1,5 @@
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Operators\obj\Debug\net5.0\Operators.csproj.AssemblyReference.cache
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Operators\obj\Debug\net5.0\Operators.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Operators\obj\Debug\net5.0\Operators.AssemblyInfoInputs.cache
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Operators\obj\Debug\net5.0\Operators.AssemblyInfo.cs
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Operators\obj\Debug\net5.0\Operators.csproj.CoreCompileInputs.cache

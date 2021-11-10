@@ -27,6 +27,8 @@ namespace ConsoleApp1 {
 
             var adres = "kadikoy";
             /// adres = 15; hata verir
+            /// x
+            
         }
     }
 }
