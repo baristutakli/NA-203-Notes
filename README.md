@@ -1,10 +1,10 @@
 # NA-203-Notes
 
-I created a **coding diary** blog to share my progress with you. You can reach it from the link below.
+I created a **coding diary** blog to share my progress with you. You can reach it from the link below.<br />
 [My Coding Diary Blog](https://baristutakli.github.io/NA-203-Notes/)
 #### 10/11/2021
 Firstly, we defined variables and printed theirs max values.
-Data types: *char *string  *decimal  *float  *double *sbyte  *float...
+Data types: *char *string  *decimal  *float  *double *sbyte  *float...<br />
 Here is a short version of data types table:
 Type | Range
 ------------ | -------------
@@ -73,11 +73,13 @@ byte byteNum2 = Convert.ToByte(num)
 
 #### 11/11/2021
 -------------------------------------------------------------
+```
 int intNum = 256;
-byte byteNum = (byte)intNum;// takes 8 rightest bits 
+byte byteNum = (byte)intNum; // takes 8 rightest bits 
 Console.writline($"byte number: {byteNum}")
-
+```
 To avoid loses during type casting,
+```
 checked{
     int intNum = 256;
     byte byteNum = (byte)intNum;// takes 8 rightest bits 
@@ -89,6 +91,7 @@ checked{
     }
 
 } 
+```
 
 ## Type casting with Parse method
 Here, we are parsing stings and attribute them to an int, double and short.
