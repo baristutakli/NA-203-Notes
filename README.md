@@ -17,7 +17,7 @@ To learn the type of a variable use GetType() method for instance x.GetType()
 var x= 55;
 var y =34.23d; 
 
-Console.ReadLine() get user inputs.
+Console.ReadLine() function gets user inputs.
 
 ## Reference Type
 These reference types hold a reference to the location of the data.
@@ -47,7 +47,7 @@ Operator | Description
 **!* | Logical Not Operator 
 
 ## Bitwise Operators
-They work on bits
+They work on bits.
 
 ```
 byte num1 = 5; //0101
@@ -68,3 +68,61 @@ int num = 305;
 byte byteNum = (byte)intSayi;
 byte byteNum2 = Convert.ToByte(num)
 ```
+
+#### 11/11/2021
+-------------------------------------------------------------
+int intNum = 256;
+byte byteNum = (byte)intNum;// takes 8 rightest bits 
+Console.writline($"byte number: {byteNum}")
+
+To avoid loses during type casting,
+checked{
+    int intNum = 256;
+    byte byteNum = (byte)intNum;// takes 8 rightest bits 
+    Console.writline($"byte number: {byteNum}");
+
+    unchecked{
+        int ıntNum2 = 256;
+        byte =byteNum = (byte)intNum2 // even we lose some bites, casting does not stop
+    }
+
+} 
+
+## Type casting with Parse method
+Here, we are parsing stings and attribute them to an int, double and short.
+```
+int degisken1 = int.Parse("365");
+double degisken2 = double.Parse("34");
+short degisken3 = short.Parse("4321");
+```
+
+## Boxing and Unboxing
+// object  veri tipi tüm tiplerin üst tipidir.
+#### Boxing
+This is the process of converting  a value type to an object.
+
+```
+int limit = 120;
+object box = limit;
+```
+#### Boxing with type conversion
+```
+object box2 = (object)limit;
+```
+#### unboxing
+To unboxe an object, it should be boxed and object type should be the same as the taget type.
+
+```
+float floatNum = 94.5f;
+```
+//boxing
+```
+object obj = floatNum ;
+```
+// unboxing
+```
+floatNum = (float)obj;
+ ```
+
+
+
