@@ -42,7 +42,7 @@ namespace Ders3_if_else {
 
             ///////////////////////////
             // ikinci soru klavyeden girilen üç sayıdan 100'den küçük olanları toplayıp yazdıran programı yazınız
-
+            /*
             int sum = 0;
             for (int i = 0; i < 3; i++)
             {
@@ -53,7 +53,110 @@ namespace Ders3_if_else {
                     sum += num4;
                 }
             }
-            Console.WriteLine($"Toplam : {sum}");
+            Console.WriteLine($"Toplam : {sum}");*/
+
+            // Aşağıdaki koşullara göre harf'e çeviren programı yazınız.
+            /*
+             *0-49: F
+             *50-64: D
+             *65-69: C
+             *70-84: B
+             *85-100: A
+             
+             
+            Console.Write("Sınav notunuzu giriniz : ");
+            int notun = Convert.ToInt32(Console.ReadLine());
+            if (0 < notun && notun< 49)
+            {
+                Console.WriteLine($"Harf notunuz : F");
+            }
+            else if (50 < notun && notun < 64)
+            {
+                Console.WriteLine($"Harf notunuz : D");
+            }
+            else if (65 < notun && notun < 69)
+            {
+                Console.WriteLine($"Harf notunuz : C");
+            }
+            else if (70 < notun && notun < 84)
+            {
+                Console.WriteLine($"Harf notunuz : B");
+            }
+            else if (85 < notun && notun < 100)
+            {
+                Console.WriteLine($"Harf notunuz : A");
+            }
+            else
+            {
+                Console.WriteLine($"Notu yanlış girdiniz.");
+            }
+            */
+
+            // Soru: Aşağıdaki kontrol programını yazınız.
+            // Klavyeden 2 sayı alınız.
+            // Klavyeden işlem bilgisi alınız
+            //(işlem => topla, çıkar, çarp, bol
+            // işleme göre girilen değerleri işleme sokan program
+            /*
+            Console.Write("İlk sayıyı giriniz : ");
+            float s1 = Convert.ToSingle(Console.ReadLine());
+            Console.Write("İkinci sayıyı giriniz : ");
+            float s2 = Convert.ToSingle(Console.ReadLine());
+            Console.Write("Yapılacak işlemi giriniz(topla, çıkar, bol, çarp): ");
+            string islem = Console.ReadLine();
+            string sonuc = "";
+            if(islem == "topla")
+            {
+                sonuc = Convert.ToString(s1 + s2);
+                Console.WriteLine($"Toplama işlemi sonucu:{sonuc} ");
+            }
+            else if (islem == "çıkar")
+            {
+
+                sonuc = Convert.ToString(s1 - s2);
+                Console.WriteLine($"Çıkarma işlemi sonucu:{sonuc} ");
+            }
+            else if (islem == "bol")
+            {
+                if (s2 != 0)
+                {
+                    sonuc = Convert.ToString(s1 / s2);
+                    Console.WriteLine($"Bölme işlemi sonucu:{sonuc} ");
+                }
+                else
+                {
+                    Console.WriteLine("Sıfıra bölünme hatası girdiniz. ");
+                }
+                
+                
+            }
+            else if (islem == "çarp")
+            {
+                sonuc = Convert.ToString(s1 * s2);
+                Console.WriteLine($"Çarpma işlemi sonucu:{sonuc} ");
+            }
+            else
+            {
+                Console.WriteLine("Tanımlanmamış bir işlem girdiniz. ");
+            }
+            */
+            // Klvayeden girilen sayı çift ise ekrana yazdırsın tek ise 3'ün katı mı değil mi kontrol edilsin.
+
+            Console.Write("İlk sayıyı giriniz : ");
+            int s1 = Convert.ToInt32(Console.ReadLine());
+            if(s1 %2 == 0)
+            {
+                Console.WriteLine("Çift");
+            }
+            else
+            {
+                if (s1 %3 == 0)
+                {
+                   
+                    Console.WriteLine($"{s1} üç sayısının {s1 / 3}");
+                    
+                }
+            }
         }
     }
 }

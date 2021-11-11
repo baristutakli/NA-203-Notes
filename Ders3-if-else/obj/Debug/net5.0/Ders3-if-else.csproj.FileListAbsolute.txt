@@ -13,3 +13,4 @@ C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders3-if-else\obj\Debug\net5.0\Ders
 C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders3-if-else\obj\Debug\net5.0\ref\Ders3-if-else.dll
 C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders3-if-else\obj\Debug\net5.0\Ders3-if-else.pdb
 C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders3-if-else\obj\Debug\net5.0\Ders3-if-else.genruntimeconfig.cache
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders3-if-else\obj\Debug\net5.0\Ders3-if-else.csproj.AssemblyReference.cache
