@@ -163,7 +163,7 @@ namespace Ders3_if_else {
 
             // Soru: Klavyeden girilen 5 sayıdan kaçının pozitif kaçının negatid olduğunu sayan ayrıca negatiflerin toplamı
             // ve pozitiflerin toplamını yazdıran program
-
+            /*
             int negatifToplam = 0;
             int pozitifToplam = 0;
             int negatifSayiAdedi = 0;
@@ -187,6 +187,67 @@ namespace Ders3_if_else {
             }
             Console.WriteLine($"Pozitif sayi adedi: {pozitifSayiAdedi}\t Pozitif sayıların toplamı: {pozitifToplam}\n" +
                 $"Negatif sayi adedi: {negatifSayiAdedi}\t Negatif sayıların toplamı: {negatifToplam} ");
+
+            */
+
+            // faktoriel ekrana yazdıran program
+            /*int rakam = 5;
+            int count = 1;
+            int faktoriel = 1;
+        Etiket:
+   
+            count++;
+            faktoriel *=count;
+
+            if (count<rakam)
+            {
+                goto Etiket;
+            }
+        Console.WriteLine(faktoriel);*/
+              
+
+         // kuvvet hesaplama
+         /*
+            int taban = 9;
+            int us = 3;
+            int sonuc = 1;
+
+        kuvvetHesapla:
+            us--;
+            sonuc *= taban;
+            if (us > 0)
+            {
+                goto kuvvetHesapla;
+            }
+        Console.WriteLine(sonuc);
+
+            */
+            // klavyeden girilen sayı sıfır ile yüz arasında değilse tekrar isteyen programı  yazınız
+            //  yukarıdaki şekilde 3 sayı alıp bunların aritmetik ortalaması
+
+            int s1 = 4;
+          
+            
+            int ortalama = 0;
+        Hesapla:
+            if(0<s1 && s1 < 100)
+            {
+                int s2 = 55;
+                if (0 < s2 && s2 < 100)
+                {
+                    int s3 = 60;
+                    if (0 < s3 && s3 <100)
+                    {
+                        ortalama = (s1 + s2 + s3) / 3;
+                    }
+                    else { goto Hesapla; }
+
+                }
+                else { goto Hesapla; }
+            }
+            else { goto Hesapla; }
+        Console.WriteLine(ortalama);
+
         }
     }
 }
