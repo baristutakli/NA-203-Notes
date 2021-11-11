@@ -97,7 +97,7 @@ short degisken3 = short.Parse("4321");
 ```
 
 ## Boxing and Unboxing
-// object  veri tipi tüm tiplerin üst tipidir.
+object  veri tipi tüm tiplerin üst tipidir.
 #### Boxing
 This is the process of converting  a value type to an object.
 
@@ -115,11 +115,11 @@ To unboxe an object, it should be boxed and object type should be the same as th
 ```
 float floatNum = 94.5f;
 ```
-//boxing
+#### boxing
 ```
-object obj = floatNum ;
+####object obj = floatNum ;
 ```
-// unboxing
+#### unboxing
 ```
 floatNum = (float)obj;
  ```

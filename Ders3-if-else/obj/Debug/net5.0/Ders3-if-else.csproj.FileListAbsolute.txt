@@ -1,0 +1,15 @@
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders3-if-else\bin\Debug\net5.0\Ders3-if-else.exe
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders3-if-else\bin\Debug\net5.0\Ders3-if-else.deps.json
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders3-if-else\bin\Debug\net5.0\Ders3-if-else.runtimeconfig.json
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders3-if-else\bin\Debug\net5.0\Ders3-if-else.runtimeconfig.dev.json
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders3-if-else\bin\Debug\net5.0\Ders3-if-else.dll
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders3-if-else\bin\Debug\net5.0\ref\Ders3-if-else.dll
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders3-if-else\bin\Debug\net5.0\Ders3-if-else.pdb
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders3-if-else\obj\Debug\net5.0\Ders3-if-else.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders3-if-else\obj\Debug\net5.0\Ders3-if-else.AssemblyInfoInputs.cache
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders3-if-else\obj\Debug\net5.0\Ders3-if-else.AssemblyInfo.cs
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders3-if-else\obj\Debug\net5.0\Ders3-if-else.csproj.CoreCompileInputs.cache
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders3-if-else\obj\Debug\net5.0\Ders3-if-else.dll
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders3-if-else\obj\Debug\net5.0\ref\Ders3-if-else.dll
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders3-if-else\obj\Debug\net5.0\Ders3-if-else.pdb
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders3-if-else\obj\Debug\net5.0\Ders3-if-else.genruntimeconfig.cache
