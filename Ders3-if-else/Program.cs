@@ -140,8 +140,10 @@ namespace Ders3_if_else {
                 Console.WriteLine("Tanımlanmamış bir işlem girdiniz. ");
             }
             */
-            // Klvayeden girilen sayı çift ise ekrana yazdırsın tek ise 3'ün katı mı değil mi kontrol edilsin.
 
+
+            // Klvayeden girilen sayı çift ise ekrana yazdırsın tek ise 3'ün katı mı değil mi kontrol edilsin.
+            /*
             Console.Write("İlk sayıyı giriniz : ");
             int s1 = Convert.ToInt32(Console.ReadLine());
             if(s1 %2 == 0)
@@ -157,6 +159,34 @@ namespace Ders3_if_else {
                     
                 }
             }
+            */
+
+            // Soru: Klavyeden girilen 5 sayıdan kaçının pozitif kaçının negatid olduğunu sayan ayrıca negatiflerin toplamı
+            // ve pozitiflerin toplamını yazdıran program
+
+            int negatifToplam = 0;
+            int pozitifToplam = 0;
+            int negatifSayiAdedi = 0;
+            int pozitifSayiAdedi = 0;
+
+            for (int i = 0; i < 5; i++)
+            {
+                int sayi = Convert.ToInt32(Console.ReadLine());
+                if (sayi>0)
+                {
+                    pozitifSayiAdedi += 1;
+                    pozitifToplam += sayi;
+                }
+                else if (sayi<0)
+                {
+                    negatifSayiAdedi += 1;
+                    negatifToplam += sayi;
+
+                }
+
+            }
+            Console.WriteLine($"Pozitif sayi adedi: {pozitifSayiAdedi}\t Pozitif sayıların toplamı: {pozitifToplam}\n" +
+                $"Negatif sayi adedi: {negatifSayiAdedi}\t Negatif sayıların toplamı: {negatifToplam} ");
         }
     }
 }
