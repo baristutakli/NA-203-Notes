@@ -5,7 +5,7 @@ I created a **coding diary** blog to share my progress with you. You can reach i
 #### 10/11/2021
 Firstly, we defined variables and printed theirs max values.
 Data types: *char *string  *decimal  *float  *double *sbyte  *float...<br />
-Here is a short version of data types table:
+Here is a short version of data types table:<br/>
 
 
 Type | Range
