@@ -8,14 +8,15 @@ Data types: *char *string  *decimal  *float  *double *sbyte  *float...<br />
 Here is a short version of data types table:<br/>
 
 
-Type | Range
------------- | -------------
+| Type | Range |
+| ------------ | -------------|
+| int | -2,147,483,648 to 2,147,483,647 |
+| byte | 0 to 255 |
+| sbyte | -128 to 127 |
+| short | -32,768 to 32,767 |
+| double | -1.79769313486232E+308 to 1.79769313486232E+308 |
 
-int | -2,147,483,648 to 2,147,483,647
-byte | 0 to 255
-sbyte | -128 to 127
-short | -32,768 to 32,767
-double | -1.79769313486232E+308 to 1.79769313486232E+308
+
 
 To learn the type of a variable use GetType() method for instance x.GetType()
 
