@@ -204,30 +204,30 @@ namespace Ders3_if_else {
                 goto Etiket;
             }
         Console.WriteLine(faktoriel);*/
-              
 
-         // kuvvet hesaplama
-         /*
-            int taban = 9;
-            int us = 3;
-            int sonuc = 1;
 
-        kuvvetHesapla:
-            us--;
-            sonuc *= taban;
-            if (us > 0)
-            {
-                goto kuvvetHesapla;
-            }
-        Console.WriteLine(sonuc);
+            // kuvvet hesaplama
+            /*
+               int taban = 9;
+               int us = 3;
+               int sonuc = 1;
 
-            */
+           kuvvetHesapla:
+               us--;
+               sonuc *= taban;
+               if (us > 0)
+               {
+                   goto kuvvetHesapla;
+               }
+           Console.WriteLine(sonuc);
+
+               */
             // klavyeden girilen sayı sıfır ile yüz arasında değilse tekrar isteyen programı  yazınız
             //  yukarıdaki şekilde 3 sayı alıp bunların aritmetik ortalaması
 
+            /*
             int s1 = 4;
           
-            
             int ortalama = 0;
         Hesapla:
             if(0<s1 && s1 < 100)
@@ -247,7 +247,63 @@ namespace Ders3_if_else {
             }
             else { goto Hesapla; }
         Console.WriteLine(ortalama);
+            */
 
+            //////////////////////////
+            ///switch Case ////////////
+            /////////////////////
+            /*
+            string seviye = "kolay";
+            switch (seviye)
+            {
+                case "kolay":
+                    Console.WriteLine("Seviye kolay");
+                    break;
+                case "orta":
+                    Console.WriteLine("Seviyeniz orta");
+                    break;// işlem bittikten sonra switch ten çıkmaya yarayacak
+                case "zor":
+                    Console.WriteLine("Seviyeniz zor");
+                    break;
+                default:
+                    Console.WriteLine("Seviye hatalı!");
+                    break;
+        }
+
+            */
+
+            // Klavyeden 2 sayı ve işlem bilgisi alıp 
+            // switch kullanarak toplama bome çıkarma çarpma yap
+
+                    Console.Write("Sayı giriniz:");
+                    float s1 = Convert.ToSingle(Console.ReadLine());
+                    Console.Write("Sayı giriniz:");
+                    float s2 = Convert.ToSingle(Console.ReadLine());
+                    Console.Write("İşlemi giriniz(topla, cıkar, carp, bol):");
+                    string islem = Console.ReadLine();
+
+                    switch (islem)
+                    {
+                        case "topla":
+                            Console.WriteLine(s1 + s2);
+                            break;
+                        case "cıkar":
+                            Console.WriteLine(s1 - s2);
+                            break;
+                        case "carp":
+                            Console.WriteLine(s1*s2);
+                            break;
+                        case "bol":
+                            Console.WriteLine(s1 / s2);
+                            break;
+
+                        default:
+                            Console.WriteLine("İşlem hatalı girildi!");
+                            break;
+                    }
+
+
+            
         }
     }
 }

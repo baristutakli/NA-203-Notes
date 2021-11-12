@@ -1,0 +1,16 @@
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders4-DoWhile\bin\Debug\net5.0\Ders4-DoWhile.exe
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders4-DoWhile\bin\Debug\net5.0\Ders4-DoWhile.deps.json
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders4-DoWhile\bin\Debug\net5.0\Ders4-DoWhile.runtimeconfig.json
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders4-DoWhile\bin\Debug\net5.0\Ders4-DoWhile.runtimeconfig.dev.json
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders4-DoWhile\bin\Debug\net5.0\Ders4-DoWhile.dll
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders4-DoWhile\bin\Debug\net5.0\ref\Ders4-DoWhile.dll
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders4-DoWhile\bin\Debug\net5.0\Ders4-DoWhile.pdb
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders4-DoWhile\obj\Debug\net5.0\Ders4-DoWhile.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders4-DoWhile\obj\Debug\net5.0\Ders4-DoWhile.AssemblyInfoInputs.cache
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders4-DoWhile\obj\Debug\net5.0\Ders4-DoWhile.AssemblyInfo.cs
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders4-DoWhile\obj\Debug\net5.0\Ders4-DoWhile.csproj.CoreCompileInputs.cache
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders4-DoWhile\obj\Debug\net5.0\Ders4-DoWhile.dll
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders4-DoWhile\obj\Debug\net5.0\ref\Ders4-DoWhile.dll
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders4-DoWhile\obj\Debug\net5.0\Ders4-DoWhile.pdb
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders4-DoWhile\obj\Debug\net5.0\Ders4-DoWhile.genruntimeconfig.cache
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders4-DoWhile\obj\Debug\net5.0\Ders4-DoWhile.csproj.AssemblyReference.cache
