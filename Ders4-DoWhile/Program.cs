@@ -12,7 +12,7 @@ namespace Ders4_DoWhile {
              *while(true){
              *}
              *
-             *Örn: klabyeden alınan sayıları toplayıp ekrana yaz
+             *Örn: klavyeden alınan sayıları toplayıp ekrana yaz
              * q denildiğinde çık
              **/
             /*
@@ -118,7 +118,7 @@ namespace Ders4_DoWhile {
             /*
              * Tüm ürünlerin toplam fiyatını kdv dahil olarak ekrana yazdıran program
              */
-
+            /*
             for (int i = 0; i < 5; i++)
             {
                 Console.WriteLine("Ürünün fiyatını giriniz:");
@@ -128,11 +128,79 @@ namespace Ders4_DoWhile {
                 Console.WriteLine($"Urunun KDV li fiyatı : {son}");
 
 
-               // double kdvli = Convert.ToDouble(Console.ReadLine());
+                // double kdvli = Convert.ToDouble(Console.ReadLine());
+            
+              }*/
+
+
+            ////////////////////////// odev //////////////////////////
+            ///
+
+            /*
+           Console.Write("Enter a number or enter 'q' to quit : ");
+           string value = Console.ReadLine();
+           int negativeSum = 0;
+           int positiveSum = 0;
+
+           while (value != "q")
+           {
+                int intValue = Convert.ToInt32(value);
+                if (intValue == 34 || intValue ==-34)
+                {
+                    value = Console.ReadLine();
+                    continue;
+
+                }
+                else
+                {
+                    if (intValue < 0)
+                    {
+                        negativeSum += intValue;
+                       
+                    }
+                    else if (intValue > 0)
+                    {
+                        positiveSum += intValue;
+                       
+                    }
+                }
+
+                value = Console.ReadLine();
 
             }
+            Console.WriteLine("negatif:" + negativeSum);
+            Console.WriteLine("positive:" + positiveSum);
+            */
 
+            // Odev 2
+            /*
+            Console.Write("Enter something or enter 'q' to quit : ");
+            string value = Console.ReadLine();
+            string sequence = "";
 
+            while (value != "q")
+            {
+                sequence += value + "\n";
+                value = Console.ReadLine();
+            }
+            Console.WriteLine(sequence);
+
+            */
+            // odev 3
+            /*
+            int sum = 0;
+            for (int i = 1; i < 10; i++)
+            {
+                int ifactorial = 1;
+                for (int j = 1; j < i; j++)
+                {
+                    ifactorial *= j;
+                }
+                Console.WriteLine($"{i} factorial :" + ifactorial);
+                sum += ifactorial;
+            }
+            Console.WriteLine(sum);
+            */
         }
     }
 }
