@@ -1,7 +1,7 @@
 # NA-203-Notes
 
 I created a **coding diary** blog to share my progress with you. You can reach it from the link below.<br />
-[My Coding Diary Blog](https://baristutakli.github.io/NA-203-Notes/)
+[My Coding Diary Blog](https://baristutakli.github.io/)
 #### 10/11/2021
 Firstly, we defined variables and printed theirs max values.
 Data types: *char *string  *decimal  *float  *double *sbyte  *float...<br />
