@@ -201,6 +201,44 @@ namespace Ders4_DoWhile {
             }
             Console.WriteLine(sum);
             */
+
+            // odev 1 for loop cözümü
+
+            int negSum = 0;
+            int posSum = 0;
+            for (; ;)
+            {
+                Console.WriteLine("Enter a number");
+                string value = Console.ReadLine();
+                if (value.ToLower()=="q")
+                {
+                    Console.WriteLine("negatif:" + negSum);
+                    Console.WriteLine("positive:" + posSum);
+                    break;
+                }else if(value == "34" || value == "-34")
+                {
+                    Console.WriteLine("You entered an unvalid number");
+                    continue;
+                }
+                else
+                {
+                    int intNum = Convert.ToInt32(value);
+                    if (intNum < 0)
+                    {
+                        negSum += intNum;
+
+                    }
+                    else if (intNum > 0)
+                    {
+                        posSum += intNum;
+
+                    }
+                }
+            }
+
+            
+   
+
         }
     }
 }

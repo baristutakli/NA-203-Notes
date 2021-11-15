@@ -1,0 +1,16 @@
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders5-Array-Lists\bin\Debug\net5.0\Ders5-Array-Lists.exe
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders5-Array-Lists\bin\Debug\net5.0\Ders5-Array-Lists.deps.json
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders5-Array-Lists\bin\Debug\net5.0\Ders5-Array-Lists.runtimeconfig.json
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders5-Array-Lists\bin\Debug\net5.0\Ders5-Array-Lists.runtimeconfig.dev.json
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders5-Array-Lists\bin\Debug\net5.0\Ders5-Array-Lists.dll
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders5-Array-Lists\bin\Debug\net5.0\ref\Ders5-Array-Lists.dll
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders5-Array-Lists\bin\Debug\net5.0\Ders5-Array-Lists.pdb
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders5-Array-Lists\obj\Debug\net5.0\Ders5-Array-Lists.csproj.AssemblyReference.cache
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders5-Array-Lists\obj\Debug\net5.0\Ders5-Array-Lists.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders5-Array-Lists\obj\Debug\net5.0\Ders5-Array-Lists.AssemblyInfoInputs.cache
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders5-Array-Lists\obj\Debug\net5.0\Ders5-Array-Lists.AssemblyInfo.cs
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders5-Array-Lists\obj\Debug\net5.0\Ders5-Array-Lists.csproj.CoreCompileInputs.cache
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders5-Array-Lists\obj\Debug\net5.0\Ders5-Array-Lists.dll
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders5-Array-Lists\obj\Debug\net5.0\ref\Ders5-Array-Lists.dll
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders5-Array-Lists\obj\Debug\net5.0\Ders5-Array-Lists.pdb
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders5-Array-Lists\obj\Debug\net5.0\Ders5-Array-Lists.genruntimeconfig.cache
