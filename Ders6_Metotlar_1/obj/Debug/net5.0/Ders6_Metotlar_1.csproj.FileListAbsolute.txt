@@ -1,0 +1,16 @@
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders6_Metotlar_1\bin\Debug\net5.0\Ders6_Metotlar_1.exe
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders6_Metotlar_1\bin\Debug\net5.0\Ders6_Metotlar_1.deps.json
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders6_Metotlar_1\bin\Debug\net5.0\Ders6_Metotlar_1.runtimeconfig.json
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders6_Metotlar_1\bin\Debug\net5.0\Ders6_Metotlar_1.runtimeconfig.dev.json
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders6_Metotlar_1\bin\Debug\net5.0\Ders6_Metotlar_1.dll
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders6_Metotlar_1\bin\Debug\net5.0\ref\Ders6_Metotlar_1.dll
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders6_Metotlar_1\bin\Debug\net5.0\Ders6_Metotlar_1.pdb
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders6_Metotlar_1\obj\Debug\net5.0\Ders6_Metotlar_1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders6_Metotlar_1\obj\Debug\net5.0\Ders6_Metotlar_1.AssemblyInfoInputs.cache
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders6_Metotlar_1\obj\Debug\net5.0\Ders6_Metotlar_1.AssemblyInfo.cs
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders6_Metotlar_1\obj\Debug\net5.0\Ders6_Metotlar_1.csproj.CoreCompileInputs.cache
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders6_Metotlar_1\obj\Debug\net5.0\Ders6_Metotlar_1.dll
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders6_Metotlar_1\obj\Debug\net5.0\ref\Ders6_Metotlar_1.dll
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders6_Metotlar_1\obj\Debug\net5.0\Ders6_Metotlar_1.pdb
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders6_Metotlar_1\obj\Debug\net5.0\Ders6_Metotlar_1.genruntimeconfig.cache
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders6_Metotlar_1\obj\Debug\net5.0\Ders6_Metotlar_1.csproj.AssemblyReference.cache

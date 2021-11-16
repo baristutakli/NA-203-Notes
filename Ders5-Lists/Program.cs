@@ -7,6 +7,8 @@ namespace Ders5_Lists {
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+
+            int[] deneme = new int[10];
             // generic öğe oluşturma
             // Tanımlama
             List<int> ilkListem = new List<int>();
@@ -21,26 +23,32 @@ namespace Ders5_Lists {
             ilkListem.Add(1);
             ilkListem.Add(1920);
             ilkListem.Add(1920);
-            ilkListem.Insert(0, 1200);// sıfırıncı indexse 1200 değerini atar
+            ilkListem.Insert(0, 1200); 
             ilkListem.InsertRange(1, araList);
 
 
             //Veriye ulaşma
-            Console.WriteLine(sehirler[2]);
-
-
+            //Console.WriteLine(sehirler[2]);
+            for (int i = 0; i < sehirler.Count; i++)
+            {
+                Console.WriteLine(sehirler[i]);
+            }
+            foreach (var num in araList)
+            {
+                Console.WriteLine(num);
+            }
             //Temizleme
             //ilkListem.Clear();
 
 
             // listenin x elemanın sayısını bulma
             int size = ilkListem.Count;
-            Console.WriteLine($"toplam eleman sayısı: {size}");
+           // Console.WriteLine($"toplam eleman sayısı: {size}");
 
 
             // Listede var mı
             bool numCheck = ilkListem.Contains(123);
-            Console.WriteLine(numCheck);
+            //Console.WriteLine(numCheck);
             
             if (numCheck == false)
             {
@@ -53,10 +61,11 @@ namespace Ders5_Lists {
             ilkListem.RemoveAt(1);// 1. indexteki numarayı siler
 
 
-            //ilkListem.TrueForAll(value => value == 10);
-            Console.WriteLine(ilkListem.TrueForAll(value => value == 10));
+            // ilkListem.TrueForAll(value => value == 10);
+            // Console.WriteLine(ilkListem.TrueForAll(value => value == 10));
+             Console.WriteLine(sehirler.BinarySearch("İzmir"));
+            
 
-            // 
             Console.WriteLine("-------------------------------------");
             /*
             // soru
@@ -123,25 +132,46 @@ namespace Ders5_Lists {
             // kullanıcıların 15 karakter alıp bir listeye atın
             // programın sonucunda kullanıcı karakteri bulursa, tebrik etsin ve karakteri ekranda gmstersin
             // Bulmazsa girdiği karakterler arasından üretilen karaktere en yakın olanı ve farkını yazın
+            /*
+            Random rnd = new Random();
+            int rastGele = Convert.ToByte(rnd.Next(0,255));
+            Console.WriteLine($"Üretilen : {rastGele}/{Convert.ToChar(rastGele)}");
 
-            Random rdm = new Random();
-            byte rstgl = Convert.ToByte(rdm.Next(1, 255));
-            List<int> list = new List<int>();
-            byte mesafe = 255;
+            int enYakinTahmin = 255;
+
+            List<int> tahminler = new List<int>();
             for (int i = 0; i < 15; i++)
             {
-                int k =Convert.ToInt32( Console.ReadLine());
-                
-                list.Add(k);
+                Console.Write("Tahmin:");
+                string k = Console.ReadLine();
+                Console.Write(k + " : ");
+                int kInt = Convert.ToInt32(k[0]); 
+                tahminler.Add(kInt);
+                Console.WriteLine(kInt);
             }
-            foreach (var item in list)
+
+            foreach (var tahmin in tahminler)
             {
+                if(tahmin==rastGele)
+                {
+                    Console.WriteLine("Tebrikler Buldunuz !");
+                    char cTahmin = Convert.ToChar(tahmin);
+                    enYakinTahmin = 0;
+                    break;
 
+                }
+                else
+                {
+                    int fark = Math.Abs((rastGele - tahmin)); // Mutlak değer aldık.
+                    if (fark < enYakinTahmin)
+                        enYakinTahmin = (byte)fark;
+                }
             }
-            
+            if(enYakinTahmin!=0)
+                Console.WriteLine($"Malesef bulamadınız!\n Rastgele karakter/ ASCII kodu : {Convert.ToChar(rastGele)} /{rastGele} En yakın tahmininiz : {Convert.ToChar(enYakinTahmin)}/{enYakinTahmin} ");
 
 
-
+            */
         }
     }
 }
