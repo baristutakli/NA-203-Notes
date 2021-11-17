@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Ders7-MetotSoruları/1.0.0": {
+        "runtime": {
+          "Ders7-MetotSoruları.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ders7-MetotSoruları/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

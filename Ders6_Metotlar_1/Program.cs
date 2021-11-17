@@ -95,11 +95,28 @@ namespace Ders6_Metotlar_1 {
 
 
 
-            Console.WriteLine("-------------");
+            /*Console.WriteLine("-------------");
             foreach (var item in listGenerator())
             {
                 Console.WriteLine("list"+ item);
             }
+            Console.WriteLine("");*/
+
+
+
+            Console.WriteLine("-------------");
+            Console.Write("Random list: ");
+            foreach (var item in RandomListGenerator(10, 200, 10))
+            {
+                Console.Write(item+" ");
+            }
+            Console.WriteLine("");
+
+            Console.WriteLine("-------------");
+
+            List<string> kelimelerim = new List<string>() { "araba", "ayva", "uçak", "çig köfte" };
+
+            Console.WriteLine(stringyfier(kelimelerim));
             
 
 
@@ -334,9 +351,49 @@ namespace Ders6_Metotlar_1 {
             return nlist;
         }
 
+        //(enküçük, enbuyuk,sayıAdedi)
+        //en küçük ile en büyük arasında sayı adedince sayı üretsin
+        // bir listeye atıp  döndürsün
+
+        static List<int> RandomListGenerator(int s1, int s2, int s3)
+        {
+            int buyuk = Buyuktur(s1, s2);
+            List<int> nList = new List<int>();
+            Random rdm = new Random();
+            if (buyuk != s1)
+            {
+                for (int i = 0; i < s3; i++)
+                {
+                    nList.Add(rdm.Next(s1,s2));
+                }
+            }
+            else
+            {
+                for (int i = 0; i < s3; i++)
+                {
+                    nList.Add(rdm.Next(s2, s1));
+                }
+            }
+            return nList;
+            
+            
+        }
 
 
+        // Kendisine lsite olarak gönderilen sitringleri tek bir string olarak birleştiren metodu yazınız.
+        static string stringyfier(List<string> strList)
+        {
+            string str = "";
+            for (int i = 0; i < strList.Count; i++)
+            {
+                str += strList[i]+" ";
+            }
+  
+            return str;
+        }
 
+        // Farklı tipte verileri tutmak için.
+        List<object> karisikListe = new List<object>() { 1, "asda", 555, "adasdasd"true };
 
 
     }

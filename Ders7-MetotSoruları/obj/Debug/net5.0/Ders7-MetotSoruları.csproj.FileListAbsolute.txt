@@ -1,0 +1,16 @@
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders7-MetotSoruları\bin\Debug\net5.0\Ders7-MetotSoruları.exe
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders7-MetotSoruları\bin\Debug\net5.0\Ders7-MetotSoruları.deps.json
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders7-MetotSoruları\bin\Debug\net5.0\Ders7-MetotSoruları.runtimeconfig.json
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders7-MetotSoruları\bin\Debug\net5.0\Ders7-MetotSoruları.runtimeconfig.dev.json
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders7-MetotSoruları\bin\Debug\net5.0\Ders7-MetotSoruları.dll
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders7-MetotSoruları\bin\Debug\net5.0\ref\Ders7-MetotSoruları.dll
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders7-MetotSoruları\bin\Debug\net5.0\Ders7-MetotSoruları.pdb
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders7-MetotSoruları\obj\Debug\net5.0\Ders7-MetotSoruları.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders7-MetotSoruları\obj\Debug\net5.0\Ders7-MetotSoruları.AssemblyInfoInputs.cache
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders7-MetotSoruları\obj\Debug\net5.0\Ders7-MetotSoruları.AssemblyInfo.cs
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders7-MetotSoruları\obj\Debug\net5.0\Ders7-MetotSoruları.csproj.CoreCompileInputs.cache
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders7-MetotSoruları\obj\Debug\net5.0\Ders7-MetotSoruları.dll
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders7-MetotSoruları\obj\Debug\net5.0\ref\Ders7-MetotSoruları.dll
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders7-MetotSoruları\obj\Debug\net5.0\Ders7-MetotSoruları.pdb
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders7-MetotSoruları\obj\Debug\net5.0\Ders7-MetotSoruları.genruntimeconfig.cache
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders7-MetotSoruları\obj\Debug\net5.0\Ders7-MetotSoruları.csproj.AssemblyReference.cache
