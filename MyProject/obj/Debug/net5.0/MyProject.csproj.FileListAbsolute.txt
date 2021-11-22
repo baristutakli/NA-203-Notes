@@ -1,0 +1,16 @@
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\MyProject\bin\Debug\net5.0\MyProject.exe
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\MyProject\bin\Debug\net5.0\MyProject.deps.json
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\MyProject\bin\Debug\net5.0\MyProject.runtimeconfig.json
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\MyProject\bin\Debug\net5.0\MyProject.runtimeconfig.dev.json
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\MyProject\bin\Debug\net5.0\MyProject.dll
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\MyProject\bin\Debug\net5.0\ref\MyProject.dll
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\MyProject\bin\Debug\net5.0\MyProject.pdb
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\MyProject\obj\Debug\net5.0\MyProject.csproj.AssemblyReference.cache
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\MyProject\obj\Debug\net5.0\MyProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\MyProject\obj\Debug\net5.0\MyProject.AssemblyInfoInputs.cache
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\MyProject\obj\Debug\net5.0\MyProject.AssemblyInfo.cs
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\MyProject\obj\Debug\net5.0\MyProject.csproj.CoreCompileInputs.cache
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\MyProject\obj\Debug\net5.0\MyProject.dll
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\MyProject\obj\Debug\net5.0\ref\MyProject.dll
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\MyProject\obj\Debug\net5.0\MyProject.pdb
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\MyProject\obj\Debug\net5.0\MyProject.genruntimeconfig.cache

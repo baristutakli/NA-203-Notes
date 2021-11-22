@@ -1,0 +1,16 @@
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders8-MathMethods\bin\Debug\net5.0\Ders8-Math-StringMethods.exe
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders8-MathMethods\bin\Debug\net5.0\Ders8-Math-StringMethods.deps.json
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders8-MathMethods\bin\Debug\net5.0\Ders8-Math-StringMethods.runtimeconfig.json
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders8-MathMethods\bin\Debug\net5.0\Ders8-Math-StringMethods.runtimeconfig.dev.json
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders8-MathMethods\bin\Debug\net5.0\Ders8-Math-StringMethods.dll
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders8-MathMethods\bin\Debug\net5.0\ref\Ders8-Math-StringMethods.dll
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders8-MathMethods\bin\Debug\net5.0\Ders8-Math-StringMethods.pdb
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders8-MathMethods\obj\Debug\net5.0\Ders8-Math-StringMethods.csproj.AssemblyReference.cache
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders8-MathMethods\obj\Debug\net5.0\Ders8-Math-StringMethods.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders8-MathMethods\obj\Debug\net5.0\Ders8-Math-StringMethods.AssemblyInfoInputs.cache
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders8-MathMethods\obj\Debug\net5.0\Ders8-Math-StringMethods.AssemblyInfo.cs
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders8-MathMethods\obj\Debug\net5.0\Ders8-Math-StringMethods.csproj.CoreCompileInputs.cache
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders8-MathMethods\obj\Debug\net5.0\Ders8-Math-StringMethods.dll
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders8-MathMethods\obj\Debug\net5.0\ref\Ders8-Math-StringMethods.dll
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders8-MathMethods\obj\Debug\net5.0\Ders8-Math-StringMethods.pdb
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders8-MathMethods\obj\Debug\net5.0\Ders8-Math-StringMethods.genruntimeconfig.cache

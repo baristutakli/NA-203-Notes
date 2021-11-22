@@ -1,16 +1,18 @@
 ﻿using System;
 
-namespace ConsoleApp1 {
-    class Program {
+namespace ConsoleApp1
+{
+    class Program
+    {
         static void Main(string[] args)
         {
-                      // Tek satır açıklama/yorum/comment
+            // Tek satır açıklama/yorum/comment
 
             /*
              * Çoklu
              * Açıklama satırı
              */
-            
+
             // Değer Tipi Değişkenler*******************************
             // Tip Ad = Veri;
 
@@ -102,7 +104,7 @@ namespace ConsoleApp1 {
 
             // Referans Tipli String
             String referansTipli = "Bu değişken doğrudan String sınıfından üretilmiştir.";
-            
+
             // Değer Tipli string
             string degerTipli = "Bu değişken String sınıfından türetilmiş string değer veri tipindedir.";
 
@@ -121,6 +123,8 @@ namespace ConsoleApp1 {
             String parola = Console.ReadLine();
             Console.WriteLine($" Ad Soyad bilgileriniz: {adSoyad}\n E-posta adresiniz: {eposta} \n parolanız: {parola}");
             */
+
+            /*
             //reference types
             object genelDegisken = 999;
             genelDegisken = 23.23f;
@@ -135,7 +139,7 @@ namespace ConsoleApp1 {
             /// adres = 15; hata verir
             /// x
        
-
+*/
         }
     }
 }

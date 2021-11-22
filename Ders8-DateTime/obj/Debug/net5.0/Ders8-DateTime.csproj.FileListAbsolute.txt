@@ -1,0 +1,16 @@
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders8-DateTime\bin\Debug\net5.0\Ders8-DateTime.exe
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders8-DateTime\bin\Debug\net5.0\Ders8-DateTime.deps.json
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders8-DateTime\bin\Debug\net5.0\Ders8-DateTime.runtimeconfig.json
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders8-DateTime\bin\Debug\net5.0\Ders8-DateTime.runtimeconfig.dev.json
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders8-DateTime\bin\Debug\net5.0\Ders8-DateTime.dll
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders8-DateTime\bin\Debug\net5.0\ref\Ders8-DateTime.dll
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders8-DateTime\bin\Debug\net5.0\Ders8-DateTime.pdb
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders8-DateTime\obj\Debug\net5.0\Ders8-DateTime.csproj.AssemblyReference.cache
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders8-DateTime\obj\Debug\net5.0\Ders8-DateTime.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders8-DateTime\obj\Debug\net5.0\Ders8-DateTime.AssemblyInfoInputs.cache
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders8-DateTime\obj\Debug\net5.0\Ders8-DateTime.AssemblyInfo.cs
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders8-DateTime\obj\Debug\net5.0\Ders8-DateTime.csproj.CoreCompileInputs.cache
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders8-DateTime\obj\Debug\net5.0\Ders8-DateTime.dll
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders8-DateTime\obj\Debug\net5.0\ref\Ders8-DateTime.dll
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders8-DateTime\obj\Debug\net5.0\Ders8-DateTime.pdb
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders8-DateTime\obj\Debug\net5.0\Ders8-DateTime.genruntimeconfig.cache

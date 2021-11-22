@@ -12,7 +12,7 @@ namespace Operators {
 
 
            
-            /*sonuc = a * (b / c) + d;
+            sonuc = a * (b / c) + d;
 
             short miktar = 10;
             miktar += 5;
@@ -33,16 +33,16 @@ namespace Operators {
 
 
             // as is operatorleri
-        //    object obj = "Aksakal ";
-         //   string yazi = obj as string;
-          //  bool stringmi = yazi is string;// true
-          //  bool intmi = yazi is int; // false
-            bool objmi = yazi is object;
+            //  object obj = "Aksakal ";
+            //   string yazi = obj as string;
+            //  bool stringmi = yazi is string;// true
+            //  bool intmi = yazi is int; // false
+            // bool objmi = yazi is object;
 
             // Mantıksal operatörler
 
-          //  bool notKontrol = s1 <= 10 || s1 >= 65;
-          //  bool kont = !(s1 != 60 %% s2 < 40);// true 
+            //  bool notKontrol = s1 <= 10 || s1 >= 65;
+            //  bool kont = !(s1 != 60 %% s2 < 40);// true 
 
 
             // Bitsel ve, veyaOperatörler
@@ -54,11 +54,9 @@ namespace Operators {
             // // bitsel özel veya
             // << >> bir bit sağa veya sola kaydırır bu da sayının iyiye bölümü veya 2 ile çarpımı
             // bir sayının tildasını aldığımızda ikilik  ter çeviriyor
-            /// 000000101 = 5=> 11111010 =255-5=250
-            /// //
-            
+            /// 000000101 = 5=> 11111010 =255-5=250           
             // int bSayi = (byte)~iSayi;
-      */
+      
             
             
         }

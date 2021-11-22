@@ -1,0 +1,16 @@
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders10-OOP2-Encapsulation\obj\Debug\net5.0\Ders10-OOP2-Encapsulation.csproj.AssemblyReference.cache
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders10-OOP2-Encapsulation\obj\Debug\net5.0\Ders10-OOP2-Encapsulation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders10-OOP2-Encapsulation\obj\Debug\net5.0\Ders10-OOP2-Encapsulation.AssemblyInfoInputs.cache
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders10-OOP2-Encapsulation\obj\Debug\net5.0\Ders10-OOP2-Encapsulation.AssemblyInfo.cs
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders10-OOP2-Encapsulation\obj\Debug\net5.0\Ders10-OOP2-Encapsulation.csproj.CoreCompileInputs.cache
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders10-OOP2-Encapsulation\bin\Debug\net5.0\Ders10-OOP2-Encapsulation.exe
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders10-OOP2-Encapsulation\bin\Debug\net5.0\Ders10-OOP2-Encapsulation.deps.json
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders10-OOP2-Encapsulation\bin\Debug\net5.0\Ders10-OOP2-Encapsulation.runtimeconfig.json
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders10-OOP2-Encapsulation\bin\Debug\net5.0\Ders10-OOP2-Encapsulation.runtimeconfig.dev.json
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders10-OOP2-Encapsulation\bin\Debug\net5.0\Ders10-OOP2-Encapsulation.dll
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders10-OOP2-Encapsulation\bin\Debug\net5.0\ref\Ders10-OOP2-Encapsulation.dll
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders10-OOP2-Encapsulation\bin\Debug\net5.0\Ders10-OOP2-Encapsulation.pdb
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders10-OOP2-Encapsulation\obj\Debug\net5.0\Ders10-OOP2-Encapsulation.dll
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders10-OOP2-Encapsulation\obj\Debug\net5.0\ref\Ders10-OOP2-Encapsulation.dll
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders10-OOP2-Encapsulation\obj\Debug\net5.0\Ders10-OOP2-Encapsulation.pdb
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders10-OOP2-Encapsulation\obj\Debug\net5.0\Ders10-OOP2-Encapsulation.genruntimeconfig.cache

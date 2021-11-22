@@ -1,0 +1,16 @@
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders9-OOP\bin\Debug\net5.0\Ders9-OOP.exe
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders9-OOP\bin\Debug\net5.0\Ders9-OOP.deps.json
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders9-OOP\bin\Debug\net5.0\Ders9-OOP.runtimeconfig.json
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders9-OOP\bin\Debug\net5.0\Ders9-OOP.runtimeconfig.dev.json
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders9-OOP\bin\Debug\net5.0\Ders9-OOP.dll
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders9-OOP\bin\Debug\net5.0\ref\Ders9-OOP.dll
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders9-OOP\bin\Debug\net5.0\Ders9-OOP.pdb
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders9-OOP\obj\Debug\net5.0\Ders9-OOP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders9-OOP\obj\Debug\net5.0\Ders9-OOP.AssemblyInfoInputs.cache
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders9-OOP\obj\Debug\net5.0\Ders9-OOP.AssemblyInfo.cs
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders9-OOP\obj\Debug\net5.0\Ders9-OOP.csproj.CoreCompileInputs.cache
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders9-OOP\obj\Debug\net5.0\Ders9-OOP.dll
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders9-OOP\obj\Debug\net5.0\ref\Ders9-OOP.dll
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders9-OOP\obj\Debug\net5.0\Ders9-OOP.pdb
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders9-OOP\obj\Debug\net5.0\Ders9-OOP.genruntimeconfig.cache
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders9-OOP\obj\Debug\net5.0\Ders9-OOP.csproj.AssemblyReference.cache

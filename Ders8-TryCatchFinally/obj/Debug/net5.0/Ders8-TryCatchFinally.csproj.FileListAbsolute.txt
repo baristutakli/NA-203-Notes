@@ -1,0 +1,16 @@
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders8-TryCatchFinally\obj\Debug\net5.0\Ders8-TryCatchFinally.csproj.AssemblyReference.cache
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders8-TryCatchFinally\obj\Debug\net5.0\Ders8-TryCatchFinally.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders8-TryCatchFinally\obj\Debug\net5.0\Ders8-TryCatchFinally.AssemblyInfoInputs.cache
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders8-TryCatchFinally\obj\Debug\net5.0\Ders8-TryCatchFinally.AssemblyInfo.cs
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders8-TryCatchFinally\obj\Debug\net5.0\Ders8-TryCatchFinally.csproj.CoreCompileInputs.cache
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders8-TryCatchFinally\bin\Debug\net5.0\Ders8-TryCatchFinally.exe
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders8-TryCatchFinally\bin\Debug\net5.0\Ders8-TryCatchFinally.deps.json
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders8-TryCatchFinally\bin\Debug\net5.0\Ders8-TryCatchFinally.runtimeconfig.json
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders8-TryCatchFinally\bin\Debug\net5.0\Ders8-TryCatchFinally.runtimeconfig.dev.json
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders8-TryCatchFinally\bin\Debug\net5.0\Ders8-TryCatchFinally.dll
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders8-TryCatchFinally\bin\Debug\net5.0\ref\Ders8-TryCatchFinally.dll
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders8-TryCatchFinally\bin\Debug\net5.0\Ders8-TryCatchFinally.pdb
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders8-TryCatchFinally\obj\Debug\net5.0\Ders8-TryCatchFinally.dll
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders8-TryCatchFinally\obj\Debug\net5.0\ref\Ders8-TryCatchFinally.dll
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders8-TryCatchFinally\obj\Debug\net5.0\Ders8-TryCatchFinally.pdb
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders8-TryCatchFinally\obj\Debug\net5.0\Ders8-TryCatchFinally.genruntimeconfig.cache

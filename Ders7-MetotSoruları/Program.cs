@@ -30,6 +30,8 @@ namespace Ders7_MetotSoruları {
             }
             */
 
+
+            
             // Personel bilgi sistemi yapıyoruz
             // TC(long) , AdSoyad, Adres Telefon için bir veya birer tane liste tanımlayabilirsiniz
             Console.WriteLine("---------------------------------------------------\n");
@@ -49,10 +51,97 @@ namespace Ders7_MetotSoruları {
             Console.WriteLine(personelList.Count);
 
             Console.WriteLine("Odev tamamlandı!");
+            
 
 
+
+            // Sabit parametre dışında sayısız metod göndereceğimiz bir metot da var
+            // Buna biz params anahtar kelimesini kullanarak birden fazla değer alabileceğimizi belirtiyoruz
+            Console.WriteLine("Toplam :"+Topla(1, 2, 3));
+            Console.WriteLine("Toplam :" + Topla(1, 2, 3,0,44,77));
+            
+            Console.WriteLine("Toplam :" + Topla(1, 2, 34,44,55,75));
+            Console.WriteLine(PuanTopla("baris",24,100,80,60,70,80));
+
+
+
+            // Faktoriyel fonksiyonunu recursion kullanarak yaptık
+            Console.WriteLine("5 faktoriel = "+Faktorial(5));
+
+            string t = " asdfgh";
+            string t2 = t;
+            t = "12354";
+            Console.WriteLine(t + "  -"+ t2);
+
+
+            //değer tipinde olduğu için s değişmedi ama referansını verirsek referansın olduğu yere gidip değeri değiştiriyor
+            // ref kullanılırken parametrenin ilk değeri ataması zorunludur
+            int s = 5;
+            Console.WriteLine(DegerDegistir(ref s));
+            Console.WriteLine(s);
+
+
+            // out nedir bak 
+            // out ta ilk değer atamak zorunlu değildir
+            // Değişkenimiz ilk değer almazsa bunu kullanabiliriz
+            int s2 = 2;
+            Console.WriteLine(DegerDegistirOut(out s2));
+
+            //out
+            
         }
 
+ 
+
+        static int DegerDegistir(ref int s1)
+        {
+            s1 = s1 * 10;
+            return s1;
+        }
+
+        static int DegerDegistirOut(out int s1)
+        {
+            s1 = 20;
+            return s1+100;
+        }
+
+
+        static int Topla(params int[] sayilar)
+        {
+            int toplam = 0;
+            foreach (var sayi in sayilar)
+            {
+                toplam += sayi;
+            }
+            return toplam;
+        }
+
+        // params parametresini sabit parametrelerden sonra kullanıyoruz
+        static string PuanTopla(string isim, int yas, params int[] puanlar)
+        {
+            int toplam = 0;
+            foreach (var puan in puanlar)
+            {
+                toplam += puan;
+            }
+            return isim +" "+ "yas:"+ yas + "Toplam puan : "+toplam;
+        }
+
+
+        // Recrusive kendini tekrar eden veya çağıran metotlar
+
+        static int Faktorial(int sayi)
+        {
+            if (sayi<=1)
+            {
+                return 1;
+            }
+            else
+            {
+                return sayi * Faktorial(sayi - 1);
+            }
+        }
+      
 
         // Kullanıcıdan 2 sayı 1 işlem alıp sonucu döndüren metodu tanımlayınız
         static int Hesapla(int s1,int s2,string islem)
@@ -102,6 +191,7 @@ namespace Ders7_MetotSoruları {
 
         static bool PersonelEkle(long TC,string adSoyad, string adress, string telefon )
         {
+            
             if (TC !=0 && adSoyad != "" && adress != "" && telefon != "")
             {
                 personelList.Add(new List<object>() {TC,adSoyad,adress,telefon });

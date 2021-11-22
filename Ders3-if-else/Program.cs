@@ -1,7 +1,9 @@
 ﻿using System;
 
-namespace Ders3_if_else {
-    class Program {
+namespace Ders3_if_else
+{
+    class Program
+    {
         static void Main(string[] args)
         {
             /*
@@ -275,35 +277,35 @@ namespace Ders3_if_else {
             // Klavyeden 2 sayı ve işlem bilgisi alıp 
             // switch kullanarak toplama bome çıkarma çarpma yap
 
-                    Console.Write("Sayı giriniz:");
-                    float s1 = Convert.ToSingle(Console.ReadLine());
-                    Console.Write("Sayı giriniz:");
-                    float s2 = Convert.ToSingle(Console.ReadLine());
-                    Console.Write("İşlemi giriniz(topla, cıkar, carp, bol):");
-                    string islem = Console.ReadLine();
+            Console.Write("Sayı giriniz:");
+            float s1 = Convert.ToSingle(Console.ReadLine());
+            Console.Write("Sayı giriniz:");
+            float s2 = Convert.ToSingle(Console.ReadLine());
+            Console.Write("İşlemi giriniz(topla, cıkar, carp, bol):");
+            string islem = Console.ReadLine();
 
-                    switch (islem)
-                    {
-                        case "topla":
-                            Console.WriteLine(s1 + s2);
-                            break;
-                        case "cıkar":
-                            Console.WriteLine(s1 - s2);
-                            break;
-                        case "carp":
-                            Console.WriteLine(s1*s2);
-                            break;
-                        case "bol":
-                            Console.WriteLine(s1 / s2);
-                            break;
+            switch (islem)
+            {
+                case "topla":
+                    Console.WriteLine(s1 + s2);
+                    break;
+                case "cıkar":
+                    Console.WriteLine(s1 - s2);
+                    break;
+                case "carp":
+                    Console.WriteLine(s1 * s2);
+                    break;
+                case "bol":
+                    Console.WriteLine(s1 / s2);
+                    break;
 
-                        default:
-                            Console.WriteLine("İşlem hatalı girildi!");
-                            break;
-                    }
+                default:
+                    Console.WriteLine("İşlem hatalı girildi!");
+                    break;
+            }
 
 
-            
+
         }
     }
 }

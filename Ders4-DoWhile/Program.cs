@@ -15,6 +15,8 @@ namespace Ders4_DoWhile {
              *Örn: klavyeden alınan sayıları toplayıp ekrana yaz
              * q denildiğinde çık
              **/
+
+
             /*
             int toplam = 0;
             int s;
@@ -68,6 +70,9 @@ namespace Ders4_DoWhile {
             }
 
             */
+
+
+
             // Sonsuz döngü
             /* for (; ; )
              {
@@ -112,6 +117,8 @@ namespace Ders4_DoWhile {
                 }
             }
             */
+
+
 
             //Soru : Marketteki her ürünün fiyatını tek tek girip her biri için %18 kdv li fiyatını ekrana yazdıran program
 
@@ -207,7 +214,7 @@ namespace Ders4_DoWhile {
             int negSum = 0;
             int posSum = 0;
             for (; ;)
-            {
+                {
                 Console.WriteLine("Enter a number");
                 string value = Console.ReadLine();
                 if (value.ToLower()=="q")
