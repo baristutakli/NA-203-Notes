@@ -21,9 +21,6 @@ namespace MyProject {
             Emlak sitesi:
 
             Sınıflar: Ilan,Kullanici
-
-
-
             Kullanici: ID,adSoyad,adres,telefon(kullaniciDuzenleme, BilgiYaz)
             Ilan: ID, tarih,baslik,aciklama,,satilikMiKiralikMi, fiyat, kullanici(ilanDuzenleme, BilgiYaz)
 

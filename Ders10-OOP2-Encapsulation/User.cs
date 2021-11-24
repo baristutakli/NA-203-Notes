@@ -10,7 +10,8 @@ namespace Ders10_OOP2_Encapsulation {
         string adSoyad;
         private string _adress;
         private string _Tel; // Bu kullanım doğru olur
-        public string Adress { 
+        public string Adress
+        {
             get { return this._adress; }
             set
             {
@@ -18,11 +19,12 @@ namespace Ders10_OOP2_Encapsulation {
                 {
                     this._adress = value;
                 }
-                 } }
+            }
+        }
 
         // Telefon özelliği sadece _ tel  özelliğine erişim için kullanılır. Bu şekilde direk verinin değişkeninin öğrenilmesi engellenir
         public string Tel { get { return this._Tel; } set { this._Tel = value; } }
-        
+
 
         // Kontrollü erişim sağlamak için properties access identifier larını private yaptık.
         // public erişim belirteçleri heryerden değiştirilir

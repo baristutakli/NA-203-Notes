@@ -62,9 +62,9 @@ namespace Ders10_OOP2_Encapsulation {
         {
             foreach (var item in alinanHizmetler)
             {
-                Console.Write(item +" ");
+                Console.Write(item + " ");
             }
-            Console.Write("fiyat:"+toplamUcret);
+            Console.Write("fiyat:" + toplamUcret);
         }
 
     }

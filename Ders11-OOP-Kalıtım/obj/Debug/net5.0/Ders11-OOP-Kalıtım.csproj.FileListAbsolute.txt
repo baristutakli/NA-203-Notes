@@ -1,0 +1,16 @@
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders11-OOP-Kalıtım\bin\Debug\net5.0\Ders11-OOP-Kalıtım.exe
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders11-OOP-Kalıtım\bin\Debug\net5.0\Ders11-OOP-Kalıtım.deps.json
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders11-OOP-Kalıtım\bin\Debug\net5.0\Ders11-OOP-Kalıtım.runtimeconfig.json
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders11-OOP-Kalıtım\bin\Debug\net5.0\Ders11-OOP-Kalıtım.runtimeconfig.dev.json
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders11-OOP-Kalıtım\bin\Debug\net5.0\Ders11-OOP-Kalıtım.dll
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders11-OOP-Kalıtım\bin\Debug\net5.0\ref\Ders11-OOP-Kalıtım.dll
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders11-OOP-Kalıtım\bin\Debug\net5.0\Ders11-OOP-Kalıtım.pdb
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders11-OOP-Kalıtım\obj\Debug\net5.0\Ders11-OOP-Kalıtım.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders11-OOP-Kalıtım\obj\Debug\net5.0\Ders11-OOP-Kalıtım.AssemblyInfoInputs.cache
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders11-OOP-Kalıtım\obj\Debug\net5.0\Ders11-OOP-Kalıtım.AssemblyInfo.cs
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders11-OOP-Kalıtım\obj\Debug\net5.0\Ders11-OOP-Kalıtım.csproj.CoreCompileInputs.cache
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders11-OOP-Kalıtım\obj\Debug\net5.0\Ders11-OOP-Kalıtım.dll
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders11-OOP-Kalıtım\obj\Debug\net5.0\ref\Ders11-OOP-Kalıtım.dll
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders11-OOP-Kalıtım\obj\Debug\net5.0\Ders11-OOP-Kalıtım.pdb
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders11-OOP-Kalıtım\obj\Debug\net5.0\Ders11-OOP-Kalıtım.genruntimeconfig.cache
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders11-OOP-Kalıtım\obj\Debug\net5.0\Ders11-OOP-Kalıtım.csproj.AssemblyReference.cache
