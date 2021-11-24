@@ -16,5 +16,6 @@ namespace Abstraction {
         {
             Console.WriteLine($"LokantaYozgat Sınıfı: Harç Miktarı : {this._HarcMiktari}");
         }
+
     }
 }
