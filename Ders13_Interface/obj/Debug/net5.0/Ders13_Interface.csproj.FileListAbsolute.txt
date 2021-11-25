@@ -1,0 +1,16 @@
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders13_Interface\obj\Debug\net5.0\Ders13_Interface.csproj.AssemblyReference.cache
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders13_Interface\obj\Debug\net5.0\Ders13_Interface.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders13_Interface\obj\Debug\net5.0\Ders13_Interface.AssemblyInfoInputs.cache
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders13_Interface\obj\Debug\net5.0\Ders13_Interface.AssemblyInfo.cs
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders13_Interface\obj\Debug\net5.0\Ders13_Interface.csproj.CoreCompileInputs.cache
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders13_Interface\bin\Debug\net5.0\Ders13_Interface.exe
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders13_Interface\bin\Debug\net5.0\Ders13_Interface.deps.json
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders13_Interface\bin\Debug\net5.0\Ders13_Interface.runtimeconfig.json
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders13_Interface\bin\Debug\net5.0\Ders13_Interface.runtimeconfig.dev.json
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders13_Interface\bin\Debug\net5.0\Ders13_Interface.dll
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders13_Interface\bin\Debug\net5.0\ref\Ders13_Interface.dll
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders13_Interface\bin\Debug\net5.0\Ders13_Interface.pdb
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders13_Interface\obj\Debug\net5.0\Ders13_Interface.dll
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders13_Interface\obj\Debug\net5.0\ref\Ders13_Interface.dll
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders13_Interface\obj\Debug\net5.0\Ders13_Interface.pdb
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Ders13_Interface\obj\Debug\net5.0\Ders13_Interface.genruntimeconfig.cache

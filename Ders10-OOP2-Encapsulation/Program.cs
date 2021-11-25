@@ -32,33 +32,30 @@ namespace Ders10_OOP2_Encapsulation {
              *
              */
 
-             /*
-             *Polimorfizm
-             *Kedi Tekir new Kedi()
-             *tekir.SesCikar()
-             *
-             *Kopek kangal = new Kopek();
-             *kangal.sesCıkar();
-             *
-             *Hayvan hayvan = new Hayvan();
-             *hayvan = tekir;
-             *hayvan.SesCıkar() ı çağıdrığımızda Hayvan klasının özelliklerini kullanır
-             *
-             *
-             *Eğer virtual dersek hayvan tekirin özelliklerini de kullanır
-             *bu şekilde alttaki sınıf özelliğni kaybetmedi
-             *
-             *virtual tanımlanırken parametre sayıları eşit olmalıdır.
-             *
-             *örneğin bir fonksiyon hayvan nesnesi aldığında biz kedi de kopekte parametre olarak verebiliriz. 
-             *Ne kedi ne de kopek özelliklerini kaybetmez.
-             *
-             */
+            /*
+            *Polimorfizm
+            *Kedi Tekir new Kedi()
+            *tekir.SesCikar()
+            *
+            *Kopek kangal = new Kopek();
+            *kangal.sesCıkar();
+            *
+            *Hayvan hayvan = new Hayvan();
+            *hayvan = tekir;
+            *hayvan.SesCıkar() ı çağıdrığımızda Hayvan klasının özelliklerini kullanır
+            *
+            *
+            *Eğer virtual dersek hayvan tekirin özelliklerini de kullanır
+            *bu şekilde alttaki sınıf özelliğni kaybetmedi
+            *
+            *virtual tanımlanırken parametre sayıları eşit olmalıdır.
+            *
+            *örneğin bir fonksiyon hayvan nesnesi aldığında biz kedi de kopekte parametre olarak verebiliriz. 
+            *Ne kedi ne de kopek özelliklerini kaybetmez.
+            *
+            */
 
         }
-
-
-
 
     }
 }
