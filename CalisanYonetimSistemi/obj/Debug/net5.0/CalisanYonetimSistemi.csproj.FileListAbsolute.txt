@@ -1,0 +1,16 @@
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\CalisanYonetimSistemi\obj\Debug\net5.0\CalisanYonetimSistemi.csproj.AssemblyReference.cache
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\CalisanYonetimSistemi\obj\Debug\net5.0\CalisanYonetimSistemi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\CalisanYonetimSistemi\obj\Debug\net5.0\CalisanYonetimSistemi.AssemblyInfoInputs.cache
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\CalisanYonetimSistemi\obj\Debug\net5.0\CalisanYonetimSistemi.AssemblyInfo.cs
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\CalisanYonetimSistemi\obj\Debug\net5.0\CalisanYonetimSistemi.csproj.CoreCompileInputs.cache
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\CalisanYonetimSistemi\bin\Debug\net5.0\CalisanYonetimSistemi.exe
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\CalisanYonetimSistemi\bin\Debug\net5.0\CalisanYonetimSistemi.deps.json
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\CalisanYonetimSistemi\bin\Debug\net5.0\CalisanYonetimSistemi.runtimeconfig.json
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\CalisanYonetimSistemi\bin\Debug\net5.0\CalisanYonetimSistemi.runtimeconfig.dev.json
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\CalisanYonetimSistemi\bin\Debug\net5.0\CalisanYonetimSistemi.dll
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\CalisanYonetimSistemi\bin\Debug\net5.0\ref\CalisanYonetimSistemi.dll
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\CalisanYonetimSistemi\bin\Debug\net5.0\CalisanYonetimSistemi.pdb
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\CalisanYonetimSistemi\obj\Debug\net5.0\CalisanYonetimSistemi.dll
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\CalisanYonetimSistemi\obj\Debug\net5.0\ref\CalisanYonetimSistemi.dll
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\CalisanYonetimSistemi\obj\Debug\net5.0\CalisanYonetimSistemi.pdb
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\CalisanYonetimSistemi\obj\Debug\net5.0\CalisanYonetimSistemi.genruntimeconfig.cache

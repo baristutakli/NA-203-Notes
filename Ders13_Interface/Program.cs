@@ -11,9 +11,8 @@ namespace Ders13_Interface {
             Test nesne = new Test();
             nesne.Marka = " Honda";
             nesne.Model = "Civic";
-
             */
-
+            
 
             Otomobil arb = new Otomobil(YakitTipi.Dizel, VitesTipi.Manual, KasaTipi.Kısa, 2000);
             arb.Marka = "BMW";
@@ -23,8 +22,9 @@ namespace Ders13_Interface {
             arb.SigortaYap();
             Sigorta guncelle = new Sigorta();
             guncelle.SigortaYap(arb);
+            
 
-
+           
 
 
         }
