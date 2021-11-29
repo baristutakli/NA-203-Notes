@@ -44,6 +44,10 @@ namespace CalisanYonetimSistemi {
             Department de = new Department("IT");
             workerService.Create(employee);
             workerService.Delete(employee);
+
+           // IService<Employee> service = new WorkerService();
+            // service.Create(employee);
+           
         }
     }
 }

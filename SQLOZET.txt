@@ -1,0 +1,35 @@
+Normalizasyon
+
+
+Normal form olması için aynı tablo içinde tekrarlayan colonlar olmaz
+Her kolonda yalnızca bir değer bulunur
+Her satır eşsiz bir anahtarla tanımlanmalıdır.
+
+Öğrencino \ yazılım\ A1,A2 yazmak yanlış olur
+şeklinde olmalı
+Öğrencino \ yazılım\ A1
+Öğrencino \ yazılım\ A2
+
+Eğer öğrenci noya göre bir satırı silersem diğer satırda silinir
+Burada aslında bölüm ve öğrenci bağımsız olmalı
+
+2. Normal formlar ilk normal formların üzerinde uygulanır
+2.  nfte zararları sadece bir kayt bulunuyorsa onla bağlantılı istemediğimiz yer silinebilir
+
+3. normal form
+
+Anahtar olmayan bir sutun diğerine bağlı olmamalı
+
+
+BCNF/ 3.5NF (Boyce codd normal form)
+Veri tabanı 3NF olmalıdır
+
+4NF ve 5NF
+Kayıtlar arasında çok sayıda tekrarlama söz konusu ysa kayıtlar ilgili tablolara bölünerek tutulmalı
+
+en azından ilk üç seviye normalizasyonu uygula
+
+
+
+Kurulum ayarları:
+=> New SQL server stand alone
