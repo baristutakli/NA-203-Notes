@@ -8,19 +8,25 @@ using System.Threading.Tasks;
 
 namespace CalisanYonetimSistemi.service {
     class MissionService : IMissionService<Mission> {
-        public void Create()
+
+
+        public void Create<T>(T t)
         {
-            //
+            throw new NotImplementedException();
         }
 
-        public void Delete()
+ 
+
+        public void Delete<T>(T t)
         {
-            //
+            throw new NotImplementedException();
         }
 
-        public int Find()
+      
+
+        public int Find<T>(T t)
         {
-            return 0;
+            throw new NotImplementedException();
         }
     }
 }

@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace CalisanYonetimSistemi.service.Api {
     interface IService<T> {
-        void Create ();
-        void Delete();
-        int Find();
+        void Create(T t);
+        void Delete(T t);
+        int Find(T t);
     }
 }

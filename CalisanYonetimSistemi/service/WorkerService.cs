@@ -8,54 +8,53 @@ using System.Threading.Tasks;
 
 namespace CalisanYonetimSistemi.service {
     class WorkerService : IEmployeeService<Employee> {
-        public WorkerService(Employee Employee)
-        {
-            Employee = Employee;
-        }
-
-        public Employee Employee { get; set; }
-        
-        
 
         public void AssignMissionToWorker()
         {
             //
         }
+      
 
-
-        public void Create()
+        public void Create(Employee t)
         {
-            Console.WriteLine( "Employee added" );
+            if (t is Worker)
+            {
+                OnMemoryDataBase.Employees.Add((Worker)(object)t);
+                Console.WriteLine("Employee added");
+            }
+            else
+            {
+                Console.WriteLine("Oluşturulamadı");
 
-            OnMemoryDataBase.Employees.Add(Employee);
-            
+            }
+        }
+
+        public void Delete(Employee t)
+        {
+            if (t is Worker && OnMemoryDataBase.Employees.Contains((Worker)(object)t))
+            {
+                OnMemoryDataBase.Employees.Remove((Worker)(object)t);
+                Console.WriteLine("Employee deleted");
+            }
         }
 
       
 
-        public void Delete()
+        public int Find(Employee t)
         {
-            if ( OnMemoryDataBase.Employees.Contains(Employee))
+            if (t is Worker && OnMemoryDataBase.Employees.Contains((Worker)(object)t))
             {
-                Console.WriteLine("Employee deleted");
-                OnMemoryDataBase.Employees.Remove(Employee);
-            }
-        }
+                Console.WriteLine("You found it!");
+                return OnMemoryDataBase.Employees.IndexOf((Worker)(object)t);
 
-     
 
-        public int Find()
-        {
-            if (OnMemoryDataBase.Employees.Contains(Employee))
-            {
-                Console.WriteLine("Not Found!");
-                return OnMemoryDataBase.Employees.IndexOf(Employee);
             }
             else
             {
-                throw new Exception( "Bulunamadı");
+                throw new Exception("Bulunamadı");
             }
         }
 
+      
     }
 }
