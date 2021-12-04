@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace typeconversions {
     class Program {
@@ -120,14 +121,112 @@ namespace typeconversions {
 
             // Örnek: Klavyeden alınan iki sayının toplamını karesini ekrana yazdıran programı yazınız
 
-            Console.Write("ilk sayıyı giriniz :");
-            string num1 = Console.ReadLine();
-            Console.Write("ilk sayıyı giriniz :");
-            string num2 = Console.ReadLine();
+            //Console.Write("ilk sayıyı giriniz :");
+            //string num1 = Console.ReadLine();
+            //Console.Write("ilk sayıyı giriniz :");
+            //string num2 = Console.ReadLine();
 
-            int result = (int.Parse(num1)+int.Parse(num2));
-            int square = result*result;
-            Console.WriteLine($"Sayıların kareleri toplamı: {square}");
+            //int result = (int.Parse(num1)+int.Parse(num2));
+            //int square = result*result;
+            //Console.WriteLine($"Sayıların kareleri toplamı: {square}");
+
+
+            string exp1 = "(a&b)|c";
+            string exp2 = "((a&c)&~a";
+            string exp3 = "((a&(b)&c)|~a)";
+            string exp4 = "a&(b|c)&~b&~c";
+            List<string> booleanOperations = new List<string> { exp1, exp2, exp3, exp4 };
+
+
+            string expression = "";
+            string parantezExpression = "";
+
+            foreach (var operation in booleanOperations)
+            {
+                for (int i = 0; i < operation.Length; i++)
+                {
+
+                    if (operation[i] == '(')
+                    {
+                        if (operation[i + 1] == '(' && operation[i] == '(')
+                        {
+                            continue;
+                        }
+                        if (expression.Length > 1)
+                        {
+                            parantezExpression += operation[i + 1] + operation[i + 2] + operation[i + 3];
+                            char parameter = CheckEndOr(parantezExpression);
+                            i += 3;
+                            expression += parameter;
+                        }
+                    }
+                    else if (operation[i] == ')')
+                    {
+                        continue;
+                    }
+                    else if (operation[i] == '~')
+                    {
+                        expression += Convert.ToString('~') + Convert.ToString(operation[i + 1]);
+                    }
+                    else
+                    {
+                        expression += operation[i];
+                    }
+
+                    if (expression.Length == 4)
+                    {
+                        char parameter = CheckEndOrFour(expression);
+                        expression = "";
+                        expression += parameter;
+                        i += 1;
+                        if (i == operation.Length - 2)
+                        {
+                            break;
+                        }
+                    }
+                    if (expression.Length == 3)
+                    {
+                        char parameter = CheckEndOr(expression);
+                        expression = "";
+                        expression += parameter;
+                        if (i == operation.Length - 2)
+                        {
+                            break;
+                        }
+                    }
+                }
+                Console.WriteLine(expression == "Y" ? "Yes" : "No");
+                expression = "";
+            }
+
+
         }
+        public static char CheckEndOr(string variable)
+        {
+            if (variable.Contains('&') && variable.Contains('N'))
+            {
+                return 'N';
+
+            }
+            else
+            {
+                return 'Y';
+            }
+        }
+
+        public static char CheckEndOrFour(string variable)
+        {
+            if (variable.Contains('&'))
+            {
+                return 'N';
+            }
+            else
+            {
+                return 'Y';
+            }
+
+        }
+
     }
 }
+
