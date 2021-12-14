@@ -1,0 +1,184 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\na\\Desktop\\NA-203-SABAH\\DERSLER\\CustomProject.ORM\\CustomProject.ORM.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\na\\Desktop\\NA-203-SABAH\\DERSLER\\CustomProject.Common\\CustomProject.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\na\\Desktop\\NA-203-SABAH\\DERSLER\\CustomProject.Common\\CustomProject.Common.csproj",
+        "projectName": "CustomProject.Common",
+        "projectPath": "C:\\Users\\na\\Desktop\\NA-203-SABAH\\DERSLER\\CustomProject.Common\\CustomProject.Common.csproj",
+        "packagesPath": "C:\\Users\\na\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\na\\Desktop\\NA-203-SABAH\\DERSLER\\CustomProject.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\na\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\na\\Desktop\\NA-203-SABAH\\DERSLER\\CustomProject.Entity\\CustomProject.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\na\\Desktop\\NA-203-SABAH\\DERSLER\\CustomProject.Entity\\CustomProject.Entity.csproj",
+        "projectName": "CustomProject.Entity",
+        "projectPath": "C:\\Users\\na\\Desktop\\NA-203-SABAH\\DERSLER\\CustomProject.Entity\\CustomProject.Entity.csproj",
+        "packagesPath": "C:\\Users\\na\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\na\\Desktop\\NA-203-SABAH\\DERSLER\\CustomProject.Entity\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\na\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\na\\Desktop\\NA-203-SABAH\\DERSLER\\CustomProject.Common\\CustomProject.Common.csproj": {
+                "projectPath": "C:\\Users\\na\\Desktop\\NA-203-SABAH\\DERSLER\\CustomProject.Common\\CustomProject.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\na\\Desktop\\NA-203-SABAH\\DERSLER\\CustomProject.ORM\\CustomProject.ORM.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\na\\Desktop\\NA-203-SABAH\\DERSLER\\CustomProject.ORM\\CustomProject.ORM.csproj",
+        "projectName": "CustomProject.ORM",
+        "projectPath": "C:\\Users\\na\\Desktop\\NA-203-SABAH\\DERSLER\\CustomProject.ORM\\CustomProject.ORM.csproj",
+        "packagesPath": "C:\\Users\\na\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\na\\Desktop\\NA-203-SABAH\\DERSLER\\CustomProject.ORM\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\na\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\na\\Desktop\\NA-203-SABAH\\DERSLER\\CustomProject.Entity\\CustomProject.Entity.csproj": {
+                "projectPath": "C:\\Users\\na\\Desktop\\NA-203-SABAH\\DERSLER\\CustomProject.Entity\\CustomProject.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

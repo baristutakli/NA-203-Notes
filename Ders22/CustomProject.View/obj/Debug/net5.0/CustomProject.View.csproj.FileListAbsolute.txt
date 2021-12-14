@@ -1,0 +1,4 @@
+C:\Users\na\Desktop\NA-203-SABAH\DERSLER\CustomProject.View\obj\Debug\net5.0\CustomProject.View.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\na\Desktop\NA-203-SABAH\DERSLER\CustomProject.View\obj\Debug\net5.0\CustomProject.View.AssemblyInfoInputs.cache
+C:\Users\na\Desktop\NA-203-SABAH\DERSLER\CustomProject.View\obj\Debug\net5.0\CustomProject.View.AssemblyInfo.cs
+C:\Users\na\Desktop\NA-203-SABAH\DERSLER\CustomProject.View\obj\Debug\net5.0\CustomProject.View.csproj.CoreCompileInputs.cache

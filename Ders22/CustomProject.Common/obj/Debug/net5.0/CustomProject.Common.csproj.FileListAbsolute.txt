@@ -1,0 +1,12 @@
+C:\Users\na\Desktop\NA-203-SABAH\DERSLER\CustomProject.Common\bin\Debug\net5.0\CustomProject.Common.deps.json
+C:\Users\na\Desktop\NA-203-SABAH\DERSLER\CustomProject.Common\bin\Debug\net5.0\CustomProject.Common.dll
+C:\Users\na\Desktop\NA-203-SABAH\DERSLER\CustomProject.Common\bin\Debug\net5.0\ref\CustomProject.Common.dll
+C:\Users\na\Desktop\NA-203-SABAH\DERSLER\CustomProject.Common\bin\Debug\net5.0\CustomProject.Common.pdb
+C:\Users\na\Desktop\NA-203-SABAH\DERSLER\CustomProject.Common\obj\Debug\net5.0\CustomProject.Common.csproj.AssemblyReference.cache
+C:\Users\na\Desktop\NA-203-SABAH\DERSLER\CustomProject.Common\obj\Debug\net5.0\CustomProject.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\na\Desktop\NA-203-SABAH\DERSLER\CustomProject.Common\obj\Debug\net5.0\CustomProject.Common.AssemblyInfoInputs.cache
+C:\Users\na\Desktop\NA-203-SABAH\DERSLER\CustomProject.Common\obj\Debug\net5.0\CustomProject.Common.AssemblyInfo.cs
+C:\Users\na\Desktop\NA-203-SABAH\DERSLER\CustomProject.Common\obj\Debug\net5.0\CustomProject.Common.csproj.CoreCompileInputs.cache
+C:\Users\na\Desktop\NA-203-SABAH\DERSLER\CustomProject.Common\obj\Debug\net5.0\CustomProject.Common.dll
+C:\Users\na\Desktop\NA-203-SABAH\DERSLER\CustomProject.Common\obj\Debug\net5.0\ref\CustomProject.Common.dll
+C:\Users\na\Desktop\NA-203-SABAH\DERSLER\CustomProject.Common\obj\Debug\net5.0\CustomProject.Common.pdb

@@ -1,0 +1,17 @@
+C:\Users\na\Desktop\NA-203-SABAH\DERSLER\CustomProject.ORM\bin\Release\net5.0\CustomProject.ORM.deps.json
+C:\Users\na\Desktop\NA-203-SABAH\DERSLER\CustomProject.ORM\bin\Release\net5.0\CustomProject.ORM.dll
+C:\Users\na\Desktop\NA-203-SABAH\DERSLER\CustomProject.ORM\bin\Release\net5.0\ref\CustomProject.ORM.dll
+C:\Users\na\Desktop\NA-203-SABAH\DERSLER\CustomProject.ORM\bin\Release\net5.0\CustomProject.ORM.pdb
+C:\Users\na\Desktop\NA-203-SABAH\DERSLER\CustomProject.ORM\bin\Release\net5.0\CustomProject.Common.dll
+C:\Users\na\Desktop\NA-203-SABAH\DERSLER\CustomProject.ORM\bin\Release\net5.0\CustomProject.Entity.dll
+C:\Users\na\Desktop\NA-203-SABAH\DERSLER\CustomProject.ORM\bin\Release\net5.0\CustomProject.Entity.pdb
+C:\Users\na\Desktop\NA-203-SABAH\DERSLER\CustomProject.ORM\bin\Release\net5.0\CustomProject.Common.pdb
+C:\Users\na\Desktop\NA-203-SABAH\DERSLER\CustomProject.ORM\obj\Release\net5.0\CustomProject.ORM.csproj.AssemblyReference.cache
+C:\Users\na\Desktop\NA-203-SABAH\DERSLER\CustomProject.ORM\obj\Release\net5.0\CustomProject.ORM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\na\Desktop\NA-203-SABAH\DERSLER\CustomProject.ORM\obj\Release\net5.0\CustomProject.ORM.AssemblyInfoInputs.cache
+C:\Users\na\Desktop\NA-203-SABAH\DERSLER\CustomProject.ORM\obj\Release\net5.0\CustomProject.ORM.AssemblyInfo.cs
+C:\Users\na\Desktop\NA-203-SABAH\DERSLER\CustomProject.ORM\obj\Release\net5.0\CustomProject.ORM.csproj.CoreCompileInputs.cache
+C:\Users\na\Desktop\NA-203-SABAH\DERSLER\CustomProject.ORM\obj\Release\net5.0\CustomProject.ORM.csproj.CopyComplete
+C:\Users\na\Desktop\NA-203-SABAH\DERSLER\CustomProject.ORM\obj\Release\net5.0\CustomProject.ORM.dll
+C:\Users\na\Desktop\NA-203-SABAH\DERSLER\CustomProject.ORM\obj\Release\net5.0\ref\CustomProject.ORM.dll
+C:\Users\na\Desktop\NA-203-SABAH\DERSLER\CustomProject.ORM\obj\Release\net5.0\CustomProject.ORM.pdb
