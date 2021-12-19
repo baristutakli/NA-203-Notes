@@ -1,0 +1,16 @@
+C:\Users\na\Desktop\NA-203-SABAH\DERSLER\Ders14_Dictionary\bin\Release\net5.0\Ders14_Dictionary.exe
+C:\Users\na\Desktop\NA-203-SABAH\DERSLER\Ders14_Dictionary\bin\Release\net5.0\Ders14_Dictionary.deps.json
+C:\Users\na\Desktop\NA-203-SABAH\DERSLER\Ders14_Dictionary\bin\Release\net5.0\Ders14_Dictionary.runtimeconfig.json
+C:\Users\na\Desktop\NA-203-SABAH\DERSLER\Ders14_Dictionary\bin\Release\net5.0\Ders14_Dictionary.runtimeconfig.dev.json
+C:\Users\na\Desktop\NA-203-SABAH\DERSLER\Ders14_Dictionary\bin\Release\net5.0\Ders14_Dictionary.dll
+C:\Users\na\Desktop\NA-203-SABAH\DERSLER\Ders14_Dictionary\bin\Release\net5.0\ref\Ders14_Dictionary.dll
+C:\Users\na\Desktop\NA-203-SABAH\DERSLER\Ders14_Dictionary\bin\Release\net5.0\Ders14_Dictionary.pdb
+C:\Users\na\Desktop\NA-203-SABAH\DERSLER\Ders14_Dictionary\obj\Release\net5.0\Ders14_Dictionary.csproj.AssemblyReference.cache
+C:\Users\na\Desktop\NA-203-SABAH\DERSLER\Ders14_Dictionary\obj\Release\net5.0\Ders14_Dictionary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\na\Desktop\NA-203-SABAH\DERSLER\Ders14_Dictionary\obj\Release\net5.0\Ders14_Dictionary.AssemblyInfoInputs.cache
+C:\Users\na\Desktop\NA-203-SABAH\DERSLER\Ders14_Dictionary\obj\Release\net5.0\Ders14_Dictionary.AssemblyInfo.cs
+C:\Users\na\Desktop\NA-203-SABAH\DERSLER\Ders14_Dictionary\obj\Release\net5.0\Ders14_Dictionary.csproj.CoreCompileInputs.cache
+C:\Users\na\Desktop\NA-203-SABAH\DERSLER\Ders14_Dictionary\obj\Release\net5.0\Ders14_Dictionary.dll
+C:\Users\na\Desktop\NA-203-SABAH\DERSLER\Ders14_Dictionary\obj\Release\net5.0\ref\Ders14_Dictionary.dll
+C:\Users\na\Desktop\NA-203-SABAH\DERSLER\Ders14_Dictionary\obj\Release\net5.0\Ders14_Dictionary.pdb
+C:\Users\na\Desktop\NA-203-SABAH\DERSLER\Ders14_Dictionary\obj\Release\net5.0\Ders14_Dictionary.genruntimeconfig.cache
