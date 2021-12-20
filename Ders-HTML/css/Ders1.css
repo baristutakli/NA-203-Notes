@@ -1,3 +1,33 @@
-p{
-    font-size: 20px;
+body{
+    background-color: white;
+}
+#ust{
+    padding: 15px;
+    
+}
+#btnSliderRight,#btnSliderLeft{
+    color:white;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+}
+
+#btnSliderRight{
+    text-align: right;
+}
+#btnSliderLeft{
+    text-align: left;
+}
+
+#alt{
+    padding: 30px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+}
+#alt a{
+    color:white;
+    margin-left: 10px;
+    text-decoration: none;
+
 }
