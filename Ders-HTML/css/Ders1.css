@@ -1,22 +1,80 @@
 body{
     background-color: white;
+    display: inline;
+    
+    
 }
-#ust{
+#nav{
     padding: 15px;
     
 }
-#btnSliderRight,#btnSliderLeft{
+
+#navRight{
     color:white;
-    text-align: center;
+    text-align: right;
+    float: right;
+    text-decoration: none;
+}
+
+#navRight a{
+    color:white;
+    text-decoration: none;
+    margin-left: 10px;
+    vertical-align: middle;
+    line-height: 30px;
+   
+}
+#navLeft{
+    color:white;
+    text-align: left;
+    display: inline;
+    
+}
+#navLeft a{
+    color:white;
+    text-decoration: none;
     vertical-align: middle;
     line-height: 30px;
 }
 
-#btnSliderRight{
-    text-align: right;
+#main {
+    margin:0 auto;
+    width: 1200px;
 }
-#btnSliderLeft{
-    text-align: left;
+#ust{
+    margin-top: 20px;
+    align-items: center;
+    
+}
+
+#btnSliderSol,#btnSliderSag
+{
+  font-size: 60px;
+  font-weight: bold;
+  font-family: serif;
+  width: 5%;
+  height: 100%;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 240px;
+  float: left;
+}
+div#slider{ 
+  height: 250px;
+  
+  float: left;
+  display: inline;
+
+}
+
+#orta{  
+    margin: 0 auto;
+    width: 980px;
+    text-align:justify;  
+    text-justify:auto;
+}
+#orta img{
+    margin: 15px;
 }
 
 #alt{
@@ -27,7 +85,7 @@ body{
 }
 #alt a{
     color:white;
-    margin-left: 10px;
+    margin: 0 auto;
     text-decoration: none;
 
 }
