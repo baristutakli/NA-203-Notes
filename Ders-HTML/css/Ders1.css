@@ -76,6 +76,20 @@ div#slider{
 #orta img{
     margin: 15px;
 }
+#orta-alt-sol{
+    min-height: 600px;
+    background-color: red;
+    width: 80%;
+   float: left;
+
+}
+ #orta-alt-sag{
+    min-height: 600px;
+    background-color: orange;
+    width: 20%;
+    float: right;
+   
+}
 
 #alt{
     padding: 30px;
