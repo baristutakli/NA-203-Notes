@@ -1,71 +1,72 @@
-body{
+body {
+  font-family: serif;
+  margin: 0;
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  body {
     font-family: serif;
     margin: 0;
-}
+  }
+  .navbar {
+    background-color: rgb(236, 236, 236);
 
-.navbar{
-    background-color:rgb(236, 236, 236);
-    
     height: 60px;
     padding: 10px;
-}
-#brandicon{
+  }
+  #brandicon {
     vertical-align: middle;
     line-height: 60px;
     font-size: 48px;
-}
+  }
 
-.icon{
+  .icon {
     vertical-align: middle;
     line-height: 100px;
     float: left;
-}
-.con img {
+  }
+  .con img {
     margin-left: 10px;
-}
-#searcharea{
+  }
+  #searcharea {
     float: right;
     width: 27.5%;
     vertical-align: middle;
     line-height: 50px;
-}
-#searcharea input{
+  }
+  #searcharea input {
     width: 200px;
     margin-right: 20px;
     height: 30px;
     border-radius: 10px;
-}
+  }
 
-.container{
+  .container {
     width: 1200px;
     height: 900px;
     margin-top: 10px;
-
-}
-.sol{
-    width: 75%;
+  }
+  .sol {
+    width: 80%;
     height: 100%;
     float: left;
-    
+  }
 
-}
-
-.sol .post{
+  .sol .post {
     margin: 10px;
     width: 80%;
     height: 200px;
-   float: right;
+    float: right;
     border-radius: 10px;
-    
-}
-.post-sol {
+  }
+  .post-sol {
     width: 20%;
     height: 100%;
     background-color: honeydew;
     border-radius: 5px;
     float: left;
-}
-.post-sol .material-icons{
+  }
+  .post-sol .material-icons {
     margin-top: 20px;
     margin-bottom: 10px;
     display: block;
@@ -74,8 +75,8 @@ body{
     width: 50%;
     border-radius: 10%;
     font-size: 60px;
-}
-.post-sol .avatar{
+  }
+  .post-sol .avatar {
     margin-top: 20px;
     margin-bottom: 10px;
     display: block;
@@ -83,53 +84,47 @@ body{
     margin-right: auto;
     width: 50%;
     border-radius: 10%;
-}
+  }
 
-.post-sol .name{
-font-weight: bold;
-display: block;
-text-align: center;
-}
+  .post-sol .name {
+    font-weight: bold;
+    display: block;
+    text-align: center;
+  }
 
-
-
-.post-sag {
+  .post-sag {
     width: 80%;
     height: 100%;
-    background-color: honeydew;;
+    background-color: honeydew;
     border-radius: 5px;
-    
+
     float: right;
-    
-}
-.post-sag-ust{
+  }
+  .post-sag-ust {
     width: 100%;
     height: 50%;
-    
-}
-.post-sag-alt{
+  }
+  .post-sag-alt {
     width: 100%;
     height: 50%;
     padding-top: 10%;
-    
-}
+  }
 
-.post-sag-alt .material-icons{
+  .post-sag-alt .material-icons {
     margin-left: 10px;
+    margin-bottom: 10px;
     border-radius: 10%;
-   font-size: 20px;
-}
+    font-size: 20px;
+  }
 
-.sag{
+  .sag {
     width: 20%;
     height: 100%;
     float: right;
-  
-    
-}
-.trends{
+  }
+  .trends {
     width: 80%;
-    background-color: honeydew;;
+    background-color: honeydew;
     height: 10%;
     margin: auto;
     margin-bottom: 10px;
@@ -137,18 +132,484 @@ text-align: center;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     padding: 10px;
-}
+  }
 
-footer{
+  footer {
     margin-top: 20px;
     background-color: grey;
-     height: 80px;
-     text-align: center;
-    
-}
-footer a{
-    color:white;
+    height: 80px;
+    text-align: center;
+  }
+  footer a {
+    color: white;
     vertical-align: middle;
     line-height: 80px;
     font-size: 20px;
+  }
 }
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  body {
+    width: 991px;
+    font-family: serif;
+    margin: 0;
+  }
+  .container {
+    width: 80%;
+    display: inline-block;
+  }
+  .navbar {
+    background-color: rgb(236, 236, 236);
+    width: 100%;
+    height: 60px;
+    padding: 10px;
+  }
+  #brandicon {
+    vertical-align: middle;
+    line-height: 60px;
+    font-size: 48px;
+  }
+
+  .icon {
+    vertical-align: middle;
+    line-height: 100px;
+    float: left;
+  }
+  .con img {
+    margin-left: 10px;
+  }
+  #searcharea {
+    margin-right: 20px;
+    float: right;
+    width: 40%;
+    vertical-align: middle;
+    line-height: 50px;
+  }
+  #searcharea input {
+    width: 200px;
+    margin-right: 20px;
+    height: 30px;
+    border-radius: 10px;
+  }
+
+  .sol {
+    width: 70% !important;
+    height: 100%;
+
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .sag {
+    width: 27% !important;
+    height: auto;
+    float: right;
+    float: right !important;
+  }
+
+  .sol .post {
+    margin: 10px;
+    width: 100% !important;
+    height: 240px;
+    border-radius: 10px;
+    float: left;
+  }
+  .post-sag {
+    width: 80%;
+    height: 100%;
+    background-color: honeydew;
+    border-radius: 5px;
+
+    float: right;
+  }
+  .post-sag-ust {
+    width: 100%;
+    height: 50%;
+    display: inline-block;
+  }
+
+  .post-sag-alt .material-icons {
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10%;
+    font-size: 20px;
+  }
+
+  .post-sol {
+    width: 20%;
+    height: 100%;
+    background-color: honeydew;
+    border-radius: 5px;
+    float: left;
+  }
+  .post-sol .material-icons {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 10%;
+    font-size: 60px;
+  }
+  .post-sol .avatar {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 10%;
+  }
+
+  .post-sol .name {
+    font-weight: bold;
+    display: block;
+    text-align: center;
+  }
+
+  .post-sag-ust {
+    width: 100%;
+    height: 50%;
+  }
+
+  .trends {
+    width: 80%;
+    background-color: honeydew;
+    height: 10%;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 10px;
+  }
+
+  footer {
+    margin-top: 20px;
+    background-color: grey;
+    height: 80px;
+    text-align: center;
+  }
+  footer a {
+    color: white;
+    vertical-align: middle;
+    line-height: 80px;
+    font-size: 20px;
+    display: none !important;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+  body {
+    width: 767px;
+    font-family: serif;
+    margin: 0;
+  }
+  .container {
+    width: 80%;
+    display: inline-block;
+  }
+  .navbar {
+    background-color: rgb(236, 236, 236);
+    width: 100%;
+    height: 60px;
+    padding: 10px;
+  }
+  #brandicon {
+    vertical-align: middle;
+    line-height: 60px;
+    font-size: 48px;
+  }
+
+  .icon {
+    vertical-align: middle;
+    line-height: 100px;
+    float: left;
+  }
+  .con img {
+    margin-left: 10px;
+  }
+  #searcharea {
+    margin-right: 20px;
+    float: right;
+    width: 39%;
+    vertical-align: middle;
+    line-height: 50px;
+  }
+  #searcharea input {
+    width: 150px;
+    margin-right: 20px;
+    height: 30px;
+    border-radius: 10px;
+  }
+
+  .sol {
+    width: 70% !important;
+    height: 100%;
+
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .sag {
+    width: 26% !important;
+    height: auto;
+    float: right;
+    float: right !important;
+  }
+
+  .sol .post {
+    margin: 10px;
+    width: 100% !important;
+    height: 260px;
+    border-radius: 10px;
+    float: left;
+  }
+  .post-sag {
+    width: 80%;
+    height: 100%;
+    background-color: honeydew;
+    border-radius: 5px;
+
+    float: right;
+  }
+  .post-sag-ust {
+    width: 100%;
+    height: 50%;
+    display: inline-block;
+  }
+
+  .post-sag-alt .material-icons {
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10%;
+    font-size: 20px;
+  }
+
+  .post-sol {
+    width: 20%;
+    height: 100%;
+    background-color: honeydew;
+    border-radius: 5px;
+    float: left;
+  }
+  .post-sol .material-icons {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 10%;
+    font-size: 60px;
+  }
+  .post-sol .avatar {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 10%;
+  }
+
+  .post-sol .name {
+    font-weight: bold;
+    display: block;
+    text-align: center;
+  }
+
+  .post-sag-ust {
+    width: 100%;
+    height: 50%;
+  }
+
+  .trends {
+    width: 80%;
+    background-color: honeydew;
+    height: 10%;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 10px;
+  }
+
+  footer {
+    margin-top: 20px;
+    background-color: grey;
+    height: 80px;
+    text-align: center;
+  }
+  footer a {
+    color: white;
+    vertical-align: middle;
+    line-height: 80px;
+    font-size: 20px;
+    display: none !important;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 480px) and (max-width: 600px) {
+    body {
+        width: 600px;
+        font-family: serif;
+        margin: 0;
+      }
+      .container {
+        width: 80%;
+        display: inline-block;
+      }
+      .navbar {
+        background-color: rgb(236, 236, 236);
+        width: 100%;
+        height: 60px;
+        padding: 10px;
+      }
+      #brandicon {
+        vertical-align: middle;
+        line-height: 60px;
+        font-size: 48px;
+      }
+    
+      .icon {
+        vertical-align: middle;
+        line-height: 100px;
+        float: left;
+      }
+      .con img {
+        margin-left: 10px;
+      }
+      #searcharea {
+        margin-right: 20px;
+        float: right;
+        width: 60%;
+        vertical-align: middle;
+        line-height: 50px;
+      }
+      #searcharea input {
+        width: 200px;
+        margin-right: 20px;
+        height: 30px;
+        border-radius: 10px;
+      }
+    
+      .sol {
+        width: 100% !important;
+        height: 100%;
+    
+        
+        margin-right: 10px;
+        
+        display: inline-block;
+      }
+      .sag {
+        width: 100% !important;
+        height: 100%;
+    
+        
+        margin-right: 10px;
+        
+        display: inline-block;
+      }
+    
+      .sol .post {
+          padding: 5px;
+        margin: 10px;
+        width: 100% !important;
+        height: 260px;
+        border-radius: 10px;
+        float: left;
+      }
+      .post-sag {
+        width: 100%;
+        height: 100%;
+        background-color: honeydew;
+        border-radius: 5px;
+    
+        float: right;
+      }
+      .post-sag-ust {
+        width: 100%;
+        height: 50%;
+        display: inline-block;
+      }
+    
+      .post-sag-alt .material-icons {
+        margin-top: 10px;
+        margin-left: 10px;
+        border-radius: 10%;
+        font-size: 20px;
+      }
+    
+      .post-sol {
+        width: 20%;
+        height: 100%;
+        background-color: honeydew;
+        border-radius: 5px;
+        float: left;
+        display: none;
+      }
+      .post-sol .material-icons {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        border-radius: 10%;
+        font-size: 60px;
+      }
+      .post-sol .avatar {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        border-radius: 10%;
+      }
+    
+      .post-sol .name {
+        font-weight: bold;
+        display: block;
+        text-align: center;
+      }
+    
+      .post-sag-ust {
+        width: 100%;
+        height: 50%;
+      }
+    
+      .trends {
+        width: 100%;
+        background-color: honeydew;
+        height: 10%;
+        margin: auto;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        padding: 10px;
+      }
+    
+      footer {
+        margin-top: 20px;
+        background-color: grey;
+        height: 80px;
+        text-align: center;
+      }
+      footer a {
+        color: white;
+        vertical-align: middle;
+        line-height: 80px;
+        font-size: 20px;
+        display: none !important;
+      }
+}
+
