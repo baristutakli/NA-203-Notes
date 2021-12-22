@@ -56,6 +56,7 @@ body {
     margin: 10px;
     width: 80%;
     height: 200px;
+    
     float: right;
     border-radius: 10px;
   }
@@ -297,7 +298,7 @@ body {
     vertical-align: middle;
     line-height: 80px;
     font-size: 20px;
-    display: none !important;
+   
   }
 }
 
@@ -450,7 +451,7 @@ body {
     vertical-align: middle;
     line-height: 80px;
     font-size: 20px;
-    display: none !important;
+
   }
 }
 
@@ -509,10 +510,10 @@ body {
         display: inline-block;
       }
       .sag {
-        width: 100% !important;
+        width: 98% !important;
         height: 100%;
     
-        
+        margin-left: 10px;
         margin-right: 10px;
         
         display: inline-block;
@@ -609,7 +610,165 @@ body {
         vertical-align: middle;
         line-height: 80px;
         font-size: 20px;
-        display: none !important;
+       
       }
+      
 }
 
+@media only screen and (min-width: 300px) and (max-width: 480px) {
+    body {
+        width: 460px;
+        font-family: serif;
+        margin: 0;
+      }
+      .container {
+        width: 80%;
+        display: inline-block;
+      }
+      .navbar {
+        background-color: rgb(236, 236, 236);
+        width: 100%;
+        height: 60px;
+        padding: 10px;
+      }
+      #brandicon {
+        vertical-align: middle;
+        line-height: 60px;
+        font-size: 48px;
+      }
+    
+      .icon {
+        vertical-align: middle;
+        line-height: 100px;
+        float: left;
+      }
+      .con img {
+        margin-left: 10px;
+      }
+      #searcharea {
+        margin-right: 20px;
+        float: right;
+        width: 60%;
+        vertical-align: middle;
+        line-height: 50px;
+      }
+      #searcharea input {
+        width: 200px;
+        margin-right: 20px;
+        height: 30px;
+        border-radius: 10px;
+      }
+    
+      .sol {
+        width: 100% !important;
+        height: 100%;
+    
+        
+        margin-right: 10px;
+        
+        display: inline-block;
+      }
+      .sag {
+        width: 98% !important;
+        height: 100%;
+    
+        margin-left: 10px;
+        margin-right: 10px;
+        
+        display: inline-block;
+      }
+    
+      .sol .post {
+          padding: 5px;
+        margin: 10px;
+        width: 100% !important;
+        height: 260px;
+        border-radius: 10px;
+        float: left;
+      }
+      .post-sag {
+        width: 100%;
+        height: 100%;
+        background-color: honeydew;
+        border-radius: 5px;
+    
+        float: right;
+      }
+      .post-sag-ust {
+        width: 100%;
+        height: 50%;
+        display: inline-block;
+      }
+    
+      .post-sag-alt .material-icons {
+        margin-top: 10px;
+        margin-left: 10px;
+        border-radius: 10%;
+        font-size: 20px;
+      }
+    
+      .post-sol {
+        width: 20%;
+        height: 100%;
+        background-color: honeydew;
+        border-radius: 5px;
+        float: left;
+        display: none;
+      }
+      .post-sol .material-icons {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        border-radius: 10%;
+        font-size: 60px;
+      }
+      .post-sol .avatar {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        border-radius: 10%;
+      }
+    
+      .post-sol .name {
+        font-weight: bold;
+        display: block;
+        text-align: center;
+      }
+    
+      .post-sag-ust {
+        width: 100%;
+        height: 50%;
+      }
+    
+      .trends {
+        width: 100%;
+        background-color: honeydew;
+        height: 10%;
+        margin: auto;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        padding: 10px;
+      }
+    
+      footer {
+        margin-top: 20px;
+        background-color: grey;
+        height: 80px;
+        text-align: center;
+      }
+      footer a {
+        color: white;
+        vertical-align: middle;
+        line-height: 80px;
+        font-size: 20px;
+ 
+      }
+}
