@@ -1,0 +1,110 @@
+ /* @import url("/css/style.mobile.css");  */
+main{
+ display: grid;
+ grid-template-columns: auto auto auto auto auto;
+ grid-template-rows: auto auto auto auto;
+ background-color: white;
+ padding: 10px;
+}
+section.ilkHucre{
+    background-color: brown;
+    margin: 10px;
+    min-height: 100px;
+    grid-column-start: 1;
+    grid-column-end: 6;
+}
+.hucre{
+    background-color: brown;
+    min-height: 100px;
+    margin: 10px;
+}
+.hucre2xsol{
+    background-color: brown;
+    min-height: 100px;
+    margin: 10px;
+    grid-column: 1/3;
+}
+.hucre2xsag{
+    background-color: brown;
+    min-height: 100px;
+    margin: 10px;
+    grid-column: 3/5;
+}
+.hucre4x{
+    background-color: brown;
+    min-height: 100px;
+    margin: 10px;
+    grid-column: 1/5;
+}
+.DikeyHucre{
+    background-color: brown;
+    min-height: 200px; 
+    margin: 10px;
+    grid-column: 5/6;
+    grid-row-start: 2;
+    grid-row-end: 6;
+}
+#Menu{
+    
+    margin-top: 0px;
+   
+    background-color: gray;
+    width: 100%;
+    height: 50px;
+    list-style-type: none;
+    
+}
+#Menu li{
+    float: left;
+    color: white;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+    main{
+        display: grid;
+        grid-template-columns: auto ;
+        grid-template-rows: auto;
+        background-color: white;
+        padding: 10px;
+       }
+    section.ilkHucre{
+        background-color: brown;
+        margin: 10px;
+        min-height: 200px;
+        grid-column: 1;
+    }
+    .hucre{
+        background-color: brown;
+        min-height: 200px;
+        margin: 10px;
+        grid-column: 1;
+        
+    }
+    .hucre2xsol{
+        background-color: brown;
+        min-height: 200px;
+        margin: 10px;
+        grid-column: 1;
+        
+    }
+    .hucre2xsag{
+        background-color: brown;
+        min-height: 200px;
+        margin: 10px;
+        grid-column: 1;
+       
+    }
+    .hucre4x{
+        background-color: brown;
+        min-height: 200px;
+        margin: 10px;
+        grid-column: 1;
+       
+    }
+    .DikeyHucre{
+        display: none;
+      
+    }
+  }

@@ -1,0 +1,47 @@
+@media only screen and (max-width: 600px) {
+    main{
+        display: grid;
+        grid-template-columns: auto ;
+        grid-template-rows: auto;
+        background-color: white;
+        padding: 10px;
+       }
+    section.ilkHucre{
+        background-color: brown;
+        margin: 10px;
+        min-height: 200px;
+        grid-column: 1;
+    }
+    .hucre{
+        background-color: brown;
+        min-height: 200px;
+        margin: 10px;
+        grid-column: 1;
+        
+    }
+    .hucre2xsol{
+        background-color: brown;
+        min-height: 200px;
+        margin: 10px;
+        grid-column: 1;
+        
+    }
+    .hucre2xsag{
+        background-color: brown;
+        min-height: 200px;
+        margin: 10px;
+        grid-column: 1;
+       
+    }
+    .hucre4x{
+        background-color: brown;
+        min-height: 200px;
+        margin: 10px;
+        grid-column: 1;
+       
+    }
+    .DikeyHucre{
+        display: none;
+      
+    }
+  }
