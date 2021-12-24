@@ -1,0 +1,33 @@
+.navbar a{
+    padding-right: 40px !important;
+}
+
+.golge{
+    box-shadow: rgba(0,0,0,0.15) 0px 5px 15px;
+    padding-left: 60px !important;
+    margin-top: 40px !important;
+}
+body {
+    background-color: lightgray;
+  }
+  
+  .col {
+    background-color: white;
+    margin: 3px;
+  }
+  #baslik {
+    display: inline-block;
+    line-height: 50px;
+    overflow: visible;
+    white-space: normal;
+    text-decoration: none;
+    color: navy;
+  }
+  #yazi {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 8px;
+    color: black;
+  }
