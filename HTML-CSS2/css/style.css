@@ -15,6 +15,6 @@ main{
 #categories a {
     text-decoration: none;
 }
-#categories div a:hover{
+#category:hover{
     background-color: #eee;
 }
