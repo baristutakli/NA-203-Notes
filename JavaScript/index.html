@@ -13,7 +13,7 @@
         "use strict"
         /*let dom = document.getElementById("asd");
         dom.innerHTML ="merhaba";*/
-        alert("Merhaba Js");
+        // alert("Merhaba Js");
        // [1,2].forEach(alert);
 
         // Data Types in JS
@@ -70,16 +70,95 @@
         // let sayi = prompt("Bir sayı giriniz:");
         // alert(sayi);
 
-        let result = confirm("Mola Verelim mi?");
-        alert(result);
+        // let result = confirm("Mola Verelim mi?");
+        // alert(result);
 
 
-        // ToString
-        let value = true;
-        alert(typeof value); // boolean
+        // Number()
+        // Boolean()
+        // String()
 
-        value = String(value); // Şimdi değer karakter dizisi =  "true"
-        alert(typeof value); // karakter dizisi
+        // // ToString
+        // let value = true;
+        // alert(typeof value); // boolean
+
+        // value = String(value); // Şimdi değer karakter dizisi =  "true"
+        // alert(typeof value); // karakter dizisi
+        // alert("" + 1 + 0)
+        // alert(true+false);
+        // alert(6/"3");
+        // alert("2"*"3");
+        //alert(4+5+"px"); // string sağda olduğundan önce soldaki sayıları toplar sonra stringi birleştirir
+        // alert("$"+4+5); string solda ise stirng birleştirmesi yapar
+        /*
+        6 / "3"
+        "2" * "3"
+        4 + 5 + "px"
+        "$" + 4 + 5
+        "4" - 2
+        "4px" - 2
+        7 / 0
+        "  -9\n" + 5
+        "  -9\n" - 5
+        null + 1
+        undefined + 1
+        */
+            // console.log(null+1);
+            //  console.log(undefined + 1);
+            // console.log("  -9\n" + 5)
+            /////////////////////////
+            //// logical Operator///
+            ////////////////////////
+
+            let a = true;
+            let b= false;
+            let orOperator = a|| b;
+            //console.log(orOperator);
+
+            let c =true;
+            let d= false;
+            let andOperator = c&&d;
+            
+            let state = true;
+            let notState = !state;
+
+            let msg = "Boğa";
+           // console.log(!msg);
+
+            let booMsg =!!msg; // Boolean tipine dönüştürür
+            //console.log("booleanMsg : "+booMsg);
+
+            ////////////////////////////
+            ////// Loops///////////
+            /////////////////////
+
+            // let count = 0;
+            // while (count<10) {
+            //     console.log(count);
+            //     count+=1;                
+            // }
+
+            // do{
+            //         // loop body
+
+            // }while (condition) {
+                
+            // }
+
+            // for (let i = 0; i <=4; i++) {
+            //     console.log(i);
+                
+            // }
+            for (let i = 0; i <=4; i++) {
+                
+                if (i==2) {
+                    continue;
+                }else{
+                    console.log(i);
+                }
+                
+            }
+            
 
     </script>
 </body>
