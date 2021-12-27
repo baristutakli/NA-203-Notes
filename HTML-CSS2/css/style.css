@@ -18,3 +18,14 @@ main{
 #category:hover{
     background-color: #eee;
 }
+footer{
+    
+   padding: 0;
+   margin-bottom: 0;
+    text-align: center;
+    align-items: center;
+}
+footer p{
+    margin-bottom: 0px !important;
+    font-size: medium;
+}
