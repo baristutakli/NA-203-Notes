@@ -1,5 +1,7 @@
 -- vuejs
 
+--- IFTT işe yarar bir link----
+
 <!-- development version, includes helpful console warnings -->
 <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
 
@@ -55,7 +57,8 @@ HTML dosyasından methodu çağırmak için {{mesaj()}} yapısını kullanıyoru
  İstediğimiz etiketin attribute'ünü değiştirmek için rebind ederiz.
 
  <div id="app">
-<a href="{{link}}"> </a>
+<a href="v-bind:href="link"> </a>
+<p v-once> {{mesaj()}}</p>
  </div>
  new vue({
     el:"#app"
@@ -71,3 +74,34 @@ HTML dosyasından methodu çağırmak için {{mesaj()}} yapısını kullanıyoru
         }
     }
 });
+
+Değiştirilmesini istemediğim nesneyi v-once kullanıyoruz. İlk tanımladığımız halini kullanıyor.
+ <div id="app">
+<p v-html="bloklink"> </p>
+<button v-on:click="increasecounter">artır</button>
+ </div>
+ new vue({
+    el:"#app"
+    data:{
+        title:"Hello World",
+        description:"açıklama",
+        link:"htttps://.....",
+        bloklink:"<a href="https://...">Link</a>",
+        counter:0
+    },
+    methods:{
+        mesaj:function(event){// Bir anahtar girdik.
+        // Bu sayade input değiştiği zaman description'ı değiştirdik
+            this.description= event.target.value;
+        },
+        increasecounter:function(){
+            this.counter+=2;
+        }
+    
+    }
+});
+
+Klavyeden bir tuşu takip etmek için v-on:keyup kullanırız. Örneğin; v-on:keyup.enter.space
+
+v-model: içindeki datanın değiştiği bir yapı düşünelim. v-model eklediğimiz tag i sürekli takip eder. Oradaki değişimeri takip eder. Örneğin;<input type="text" v-model="name">
+
