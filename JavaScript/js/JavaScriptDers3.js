@@ -11,3 +11,9 @@ for (let element of fname) {
     console.log(element.getAttribute('value'));
 }
 
+
+//let id= document.getElementsByTagName('studentid')[0].dataset.id;//data-id
+//let tc= document.getElementsByTagName('studentid')[0].dataset.tc;//data-id
+
+
+// document.getElementById("kutu").classList.remove("default");

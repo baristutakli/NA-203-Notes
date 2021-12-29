@@ -5,6 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JS create elements, manipulate Classes, manipulate Attributes</title>
+    <style>
+        .default{
+            min-height: 90px;background-color: darkblue;
+        }
+        .sonradan{
+            background-color: darkcyan;
+            min-height: 90px;
+        }
+    </style>
 </head>
 <body>
     <main>
@@ -14,7 +23,10 @@
             <label for="lname">Last name:</label><br>
             <input type="text" id="lname" name="lname" value="Doe"><br><br>
             <input type="submit" value="Submit">
+            <input type="hidden" id="studentid" name="studentid" data-id="199" data-tc=""><br><br>
+            
           </form> 
+          <div class="box" style="height: 100px;"></div>
     </main>
 
     <script src="./js/JavaScriptDers3.js"></script>
