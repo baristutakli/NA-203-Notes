@@ -174,3 +174,76 @@ Butonları kullanarak değer artırıp azaltma işleminde Computed kullandık
     </script>
 
 </body>
+
+v-on:clik = @click şeklinde kullanabiliriz.
+v-bind:href = :href
+
+
+Class and Style Bindings
+
+<Style> 
+.box{
+    width:100px;
+    height:100px;
+    background-color:gray;
+    display:inline-block;
+    margin-right:5px;
+}
+.yellow{
+    background-color:yellow;
+}
+</Style>
+
+
+<div id="app">
+<div @click="attachedClass=!attachedClass"
+        :class="{yellow:attachedClass}"
+         class="box"></div>
+        <div class="box":class="yellow:attachedClass"></div>
+        <div class="box"></div>
+</div>
+
+<script>
+    new Vue({
+        el: "#app",
+        data: {
+            attachedClass:false;
+        }
+    
+    })
+</script>
+
+
+v-if: if durumu
+v-else: else durumu
+
+
+<div id="app">
+   <p v-if="show"> paragraf</p>
+   <p v-else-if="show"> paragraf</p>
+    <p v-else="show"> paragraf</p>
+</div>
+
+
+for loop
+<div id="app">
+    <ul>
+    <li v-for="product in products">{{product}}</li>
+
+    </ul>
+</div>
+
+<script>
+    new Vue({
+        el: "#app",
+        data: {
+           products:["monitor","klavye","askı"],
+           persons:[{name:"barış",email:"baristutakli@"},
+           {name:"barış",email:"baristutakli@"}
+           ]
+
+        }
+    
+    })
+</script>
+
