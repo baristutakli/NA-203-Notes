@@ -105,3 +105,72 @@ Klavyeden bir tuşu takip etmek için v-on:keyup kullanırız. Örneğin; v-on:k
 
 v-model: içindeki datanın değiştiği bir yapı düşünelim. v-model eklediğimiz tag i sürekli takip eder. Oradaki değişimeri takip eder. Örneğin;<input type="text" v-model="name">
 
+
+
+Computed Properties
+Kodu analiz ediyor ihtiyaca göre çalıştırıyor. 
+<div id="example">
+  <p>Original message: "{{ message }}"</p>
+  <p>Computed reversed message: "{{ reversedMessage }}"</p>
+</div>
+
+var vm = new Vue({
+  el: '#example',
+  data: {
+    message: 'Hello'
+  },
+  computed: {
+    // a computed getter
+    reversedMessage: function () {
+      // `this` points to the vm instance
+      return this.message.split('').reverse().join('')
+    }
+  }
+})
+
+
+Butonları kullanarak değer artırıp azaltma işleminde Computed kullandık
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <!-- Vue-->
+</head>
+
+<body>
+
+    <div id="app">
+        <button v-on:click="counter++">Arttır</button>
+        <button v-on:click="counter--">azalt</button>
+        <button v-on:click="secondCounter++">2.Counter</button>
+        <p> Counter: {{counter}} | {{secondCounter}}</p>
+        <p>{{result()}} | {{output}}</p>
+
+    </div>
+
+    <script>
+        new Vue({
+            el: "#app",
+            data: {
+                counter: 0,
+
+                secondCounter: 0
+            },
+            methods: {
+                result: function() {
+                    console.log("method çalışıt");
+                    return this.counter > 10 ? "10dan büyüktür" : "10dan küçüktür"
+                }
+            },
+            computed: {
+                output: function() {
+                    return this.secondCounter > 10 ? "10dan büyüktür" : "10dan küçüktür"
+                }
+            }
+        })
+    </script>
+
+</body>
