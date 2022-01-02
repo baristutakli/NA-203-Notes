@@ -72,4 +72,74 @@ let myPattern13 ="/{fchtnF54}at/g";
 let myPattern14 ="/[a-zA-Z0-9]at/g";
 
 
+let str3= "gray grey";
 
+let myPattern15 ="/gr[ae]y/g"; // burada gruplama yapmaz
+let myPattern16 ="/gr(a|e)y/g"; // burada gruplama yapar
+
+
+let str4= "rerere rarara bir şeyler şampiyon";
+
+let myPattern17 ="/(r(e|a))+"; // re'yi parantez içine alığ birleştirerek grupladık
+// seçme sonucunda rerere ve rarara kelimelerini iki grup halinde alırız
+let myPattern18 ="/(r(e|a))+";
+let myPattern19 ="/(r(e|a)){2,3}";
+
+
+// ----------- ^ ---------
+// satır başındaki bir karakteri seçmek için
+// örnegin 
+let str5 ="sokakta yalnız yürüyorum.sokak bununfarkında bile değil."
+let myPattern20 ="/^s/g";
+// ------------- $--------
+// sonundaki karakteri dolar ile seçeriz
+let myPattern21 ="/\.$/gm"; // m multiline
+
+
+// (lookbehind)x(lookahead)
+// devamında k olan herhangi bir karakteri seçme
+let myPattern22 ="/.(?=k)/gm"; 
+
+let myPattern23 ="/[a-zA-Z](?=k)/gm"; 
+
+// devamında k olmayanı seç
+
+let myPattern24 ="/.(?!k)/gm"; 
+
+let str6 ="url"
+//  url seçme lookahead ile birlikte seçme işlemi
+let myPattern25 ='/...(?=")/g'; 
+
+// lookbehind
+// (?<="). 
+let str6 ='src="url"';
+// iki tırnak arasındaki urlyi seçme
+
+let myPattern26 ='/(?<=").+(?=")/g';
+// Bir diğer bulma yöntemi
+let myPattern28='/(?<=src=")(.*)(?=")/g';
+
+
+//telefon Numarası Seçmek
+let str7 ="1234567890";
+let myptr1 ="/\d{10}/g"
+
+let str8 ="123-456-7890";
+let myptr2 ="/(\d{3})-?(\d{3})-?(\d{4})/g";
+
+let str9 ="123 456 7890";
+let myptr3 ="/(\d{3})[ -]?(\d{3})[ -]?(\d{4})/g";
+
+// +90 123 456 7890
+let str9 ="+90 123 456 7890";
+let myptr4 ="(\+\d{2})?[ ]?\(?(\d{3})\)?[ -]?(\d{3})[ -]?(\d{4})"
+
+
+// Grupları isimlendirme
+// (?<areacode>\d{3})[ -]?(?<inital>\d{3})[ -]?(?<deneme>\d{4})
+
+let myptr5 ="(?<areacode>\d{3})[ -]?(?<inital>\d{3})[ -]?(?<deneme>\d{4})";
+
+// ilk grubun ismi: areacode
+// ikinci: initial
+// son kısım: deneme
