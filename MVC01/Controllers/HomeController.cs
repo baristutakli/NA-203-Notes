@@ -26,5 +26,14 @@ namespace MVC01.Controllers
 
             return View();
         }
+        public ActionResult NA()
+        {
+            ViewBag.isim = "Barış";
+            ViewBag.soyad = "Tutakli";
+            ViewData["okul"] = "42";
+            return View();
+
+        }
+
     }
 }

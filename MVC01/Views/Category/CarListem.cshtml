@@ -1,0 +1,24 @@
+﻿
+@{
+    Layout = null;
+}
+@model List<string>
+<!-- Gelen veri string bir list verisidir dedik-->
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>CarListem</title>
+</head>
+<body>
+    <div>
+        @foreach (var cat in Model)
+        {
+            <span>@cat</span>
+        }
+
+    </div>
+</body>
+</html>
