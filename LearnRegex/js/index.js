@@ -138,7 +138,7 @@ let myptr4 ="(\+\d{2})?[ ]?\(?(\d{3})\)?[ -]?(\d{3})[ -]?(\d{4})"
 // Grupları isimlendirme
 // (?<areacode>\d{3})[ -]?(?<inital>\d{3})[ -]?(?<deneme>\d{4})
 
-let myptr5 ="(?<areacode>\d{3})[ -]?(?<inital>\d{3})[ -]?(?<deneme>\d{4})";
+let myptr5 ="(?<areaCode>\+\d{2})?[ ]?\(?(?<operator>\d{3})\)?[ -]?(?<main>\d{3})[ -]?(?<number>\d{4})";
 
 // ilk grubun ismi: areacode
 // ikinci: initial
