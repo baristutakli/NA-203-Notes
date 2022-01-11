@@ -1,8 +1,10 @@
-﻿using System;
+﻿using MVC01.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+
 
 namespace MVC01.Controllers
 {
@@ -10,18 +12,33 @@ namespace MVC01.Controllers
     {
         // GET: Category
 
-        List<string> categories = new List<string> { "Car", "House", "Mobil" };
+        static List<string> categories = new List<string> { "Car", "House", "Mobil" };
 
         public ActionResult CarListem()
         {
             return View(categories); // model aracılığı ile veri taşıma
         }
+
+        [HttpGet]
+        public ActionResult Create()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult Create(Category c)
+        {
+            categories.Add(c.CategoryName);
+            return RedirectToAction("CarListem");
+        }
+
     }
 }
 /*
- Product isimli controller tanımlayınız. Içerisinde aşağıdaki sayfaları çalıştıracak actionlar bulunsun
-    Create => ProductName, UnitPrice bilgilerini action'dan almalı
-     Delete => ProductID bilgisi action'dan alınsın
-    Update => ProductID bilgisi action'dan alınsın
-    Add => ProductName, UnitPrice bilgileri Action'dan alınsın
+ * Model: sınıflarımızın bulunduğu alan
+ * View: Sayfalarımızın bulubduğu alan
+ * Controller: Kullanıcı isteklerinin cevaplandırıldığı/yönlendirildiği alan
+ * 
+ * Route: Hangi URL hangi controller'daki hangi action'a yönlendirilecek.
+ * 
  */
