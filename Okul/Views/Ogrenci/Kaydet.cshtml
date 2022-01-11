@@ -4,16 +4,12 @@
     ViewBag.Title = "Kaydet";
 }
 
-<!DOCTYPE html>
 
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Ögrenci Kaydet</title>
-</head>
-<body>
-    <div> 
-        <p> Öğrenci kaydet</p>
-    </div>
-</body>
-</html>
+<p> Öğrenci kaydet</p>
+@*@{ 
+    <p>@ViewData["isim"]</p>
+    <p>@ViewBag.Okul</p>
+    <p>@TempData["ogretmen"]</p>
+}*@
+<a href="Ogrenci/Index">Git</a>
+
