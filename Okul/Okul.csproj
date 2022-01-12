@@ -114,6 +114,7 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Ogrenci\Index.cshtml" />
     <Content Include="Views\Ogrenci\Create.cshtml" />
+    <Content Include="Views\Ogrenci\Edit.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -65,6 +65,37 @@ namespace Okul.DataAccess
 
 
         }
+        public bool Execute(string query)
+        {
+            SqlCommand cmd = new SqlCommand(query, con);
+            int effectedRows = -1;
+            try
+            {
+                ConnectDB();
+                effectedRows= cmd.ExecuteNonQuery();
+
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+            finally
+            {
+                DisConnectDB();
+
+            }
+            if (effectedRows >= 0)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+            
+            
+        }
 
         public int Create(string query)
         {
@@ -73,7 +104,7 @@ namespace Okul.DataAccess
             try
             {
                 ConnectDB();
-                insertedID = Convert.ToInt32(cmd.ExecuteScalar());
+                insertedID =(int) cmd.ExecuteScalar();
 
             }
             catch (Exception)
@@ -87,6 +118,40 @@ namespace Okul.DataAccess
                 
             }
             return insertedID;
+        }
+
+        public List<Ogrenci> Read(string query)
+        {
+            List<Ogrenci> ogrenciler = new List<Ogrenci>();
+            SqlCommand cmd = new SqlCommand(query,con);
+            IDataReader reader;
+            try
+            {
+              ConnectDB();
+              reader=  cmd.ExecuteReader();
+                while (reader.Read())
+                {
+                    ogrenciler.Add(
+                        new Ogrenci
+                        {
+                            Id = int.Parse(reader["Id"].ToString()),
+                            FistName = reader["FirstName"].ToString(),
+                            LastName = reader["LastName"].ToString()
+                        });
+                }
+
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+            finally
+            {
+                DisConnectDB();
+
+            }
+            return ogrenciler;
         }
     }
 }

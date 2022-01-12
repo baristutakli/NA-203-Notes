@@ -13,7 +13,7 @@ namespace Okul.Controllers
         // GET: Ogrenci
         public ActionResult Index()
         {
-            IEnumerable<Ogrenci> listem = new List<Ogrenci> { new Ogrenci { Id = 1, FistName = "Cem", LastName = "Yılmaz", Age = 45 } };
+            IEnumerable<Ogrenci> listem = OgrenciDal.Current.GetStudents();
             return View(listem);
         }
 
@@ -29,8 +29,27 @@ namespace Okul.Controllers
             int insertedId = OgrenciDal.Current.Create(ogrenci);
             TempData["insertedId"] = insertedId;
             return RedirectToAction("Index");
+        }        
+        public ActionResult Edit(int id)
+        {
+            Ogrenci ogrenci = OgrenciDal.Current.GetStudentById(id);
+            return View(ogrenci); //Veritabanından gelen ogrenciyi view e gönderdik
         }
 
-        
+        [HttpPost]
+        public ActionResult Edit(Ogrenci ogrenci)
+        {
+            if (OgrenciDal.Current.Update(ogrenci))
+            {
+                return RedirectToAction("Index");
+            }
+            else
+            {
+                
+                return RedirectToAction("Edit", new { id = ogrenci.Id });
+            }
+
+            
+        }
     }
 }

@@ -24,9 +24,28 @@ namespace Okul.DataAccess
         }
         public int Create(Ogrenci ogrenci)
         {
-            string query = $"Insert into Ogrenci (FirstName, LastName) VALUES  ('{ogrenci.FistName}','{ogrenci.LastName}')";
+            string query = $"Insert into Ogrenci (FirstName, LastName) VALUES  ('{ogrenci.FistName}','{ogrenci.LastName}');select CAST(scope_identity() as int);";
             int insertedsId= DbTools.Con.Create(query);
             return insertedsId;
+        }
+
+        public List<Ogrenci> GetStudents()
+        {
+            string query = "select * from Ogrenci";
+            
+            return DbTools.Con.Read(query);
+        }
+
+        public Ogrenci GetStudentById(int id)
+        {
+            string query = $"select * from Ogrenci where Id ={id};";
+            return DbTools.Con.Read(query)[0];// ogrenci listesinin ilk elemannı döndürür
+        }
+
+        public bool Update(Ogrenci ogrenci)
+        {
+            string query = $"Update Ogrenci set FirstName='{ogrenci.FistName}',LastName='{ogrenci.LastName}' where Id='{ogrenci.Id}';";
+            return DbTools.Con.Execute(query);
         }
     }
 }
