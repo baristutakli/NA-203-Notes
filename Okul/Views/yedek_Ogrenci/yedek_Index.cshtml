@@ -1,0 +1,28 @@
+﻿@using Okul.Tools @*model alındakı sınıflara erişim için*@
+@using Okul.Models
+@model OgrenciOgretmen
+@* Ogrenci tipinde bir ver gelecek *@
+
+@{
+    Layout = "~/Views/Shared/_LayoutPage.cshtml";
+    ViewBag.Title = "Ogrenci Index";
+}
+
+
+@Html.DisplayNameFor(model => model.Ogretmen.Id);
+@Html.DisplayNameFor(model => model.Ogretmen.FistName);
+@Html.DisplayNameFor(model => model.Ogretmen.LastName);
+
+
+@Html.DisplayFor(model => model.Ogretmen.Id);
+@Html.DisplayFor(model => model.Ogretmen.FistName);
+@Html.DisplayFor(model => model.Ogretmen.LastName);
+
+
+<p class="text-center">Ogrenci Index</p>
+
+
+@*@foreach (var item in ViewBag.isimler)
+    {
+        <p>@item</p>
+    }*@

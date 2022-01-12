@@ -94,6 +94,9 @@
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\OgrenciController.cs" />
+    <Compile Include="Controllers\Yedek_OgrenciController.cs" />
+    <Compile Include="DataAccess\DbTools.cs" />
+    <Compile Include="DataAccess\OgrenciDal.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -105,10 +108,12 @@
   <ItemGroup>
     <Content Include="Views\web.config" />
     <None Include="packages.config" />
-    <Content Include="Views\Ogrenci\Index.cshtml" />
-    <Content Include="Views\Ogrenci\Kaydet.cshtml" />
+    <Content Include="Views\yedek_Ogrenci\yedek_Index.cshtml" />
+    <Content Include="Views\yedek_Ogrenci\yedek_Kaydet.cshtml" />
     <Content Include="Views\Shared\_LayoutPage.cshtml" />
     <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Ogrenci\Index.cshtml" />
+    <Content Include="Views\Ogrenci\Create.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

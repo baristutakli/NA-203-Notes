@@ -1,28 +1,40 @@
-﻿@using Okul.Tools @*model alındakı sınıflara erişim için*@
-@using Okul.Models
-@model OgrenciOgretmen
-@* Ogrenci tipinde bir ver gelecek *@
+﻿@model IEnumerable<Okul.Models.Ogrenci>
 
 @{
+    ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_LayoutPage.cshtml";
-    ViewBag.Title = "Ogrenci Index";
 }
 
+<h2>Index</h2>
 
-@Html.DisplayNameFor(model => model.Ogretmen.Id);
-@Html.DisplayNameFor(model => model.Ogretmen.FistName);
-@Html.DisplayNameFor(model => model.Ogretmen.LastName);
+<p>
+    @Html.ActionLink("Yöni öğrenci ", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.FistName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LastName)
+        </th>
+        <th></th>
+    </tr>
 
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.FistName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.LastName)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+        </td>
+    </tr>
+}
 
-@Html.DisplayFor(model => model.Ogretmen.Id);
-@Html.DisplayFor(model => model.Ogretmen.FistName);
-@Html.DisplayFor(model => model.Ogretmen.LastName);
-
-
-<p class="text-center">Ogrenci Index</p>
-
-
-@*@foreach (var item in ViewBag.isimler)
-    {
-        <p>@item</p>
-    }*@
+</table>

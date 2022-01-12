@@ -1,10 +1,11 @@
-﻿using System;
+﻿using Okul.DataAccess;
+using Okul.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-using Okul.Models;
-using Okul.Tools;
+
 namespace Okul.Controllers
 {
     public class OgrenciController : Controller
@@ -12,24 +13,24 @@ namespace Okul.Controllers
         // GET: Ogrenci
         public ActionResult Index()
         {
-            // ViewBag.isimler = new List<string> { "Ahmet", "Ayşe", "Veli" };
-            Ogrenci ogrenci = new Ogrenci { Id = 1, FistName = "Cem", LastName = "Yılmaz", Age = 45 };
-            Ogretmen ogretmen = new Ogretmen { Id = 2, FistName = "Mehmet", LastName = "Demir" };
-            OgrenciOgretmen birlesim = new OgrenciOgretmen { Ogrenci = ogrenci, Ogretmen = ogretmen };
-            return View(birlesim);// model aracılığı ile controller dan view e nesne gönderdik
+            IEnumerable<Ogrenci> listem = new List<Ogrenci> { new Ogrenci { Id = 1, FistName = "Cem", LastName = "Yılmaz", Age = 45 } };
+            return View(listem);
         }
 
-        public ActionResult Kaydet()
+        // Get: Ogrenci create form
+        public ActionResult Create()
         {
-            //ViewData["isim"] = "Barış Tutakli";
-            //ViewBag.Okul = "Network Academy";
-            //TempData["ogretmen"] = "ogretmen";// İki action arasında veri transferi sağladık
-
-            //return RedirectToAction("Index"); // veriyi kaydetten ındexe gönderik TempData daki veri aktarabildik
-            
-
+            Ogrenci ogrenci = new Ogrenci();
             return View();
         }
+        [HttpPost]
+        public ActionResult Create(Ogrenci ogrenci)
+        {
+            int insertedId = OgrenciDal.Current.Create(ogrenci);
+            TempData["insertedId"] = insertedId;
+            return RedirectToAction("Index");
+        }
+
         
     }
 }
