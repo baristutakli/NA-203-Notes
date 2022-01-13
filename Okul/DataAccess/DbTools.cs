@@ -153,5 +153,41 @@ namespace Okul.DataAccess
             }
             return ogrenciler;
         }
+
+        public List<Ogretmen> ReadOgretmen(string query)
+        {
+            List<Ogretmen> ogretmenler = new List<Ogretmen>();
+            SqlCommand cmd = new SqlCommand(query, con);
+            IDataReader reader;
+            try
+            {
+                ConnectDB();
+                reader = cmd.ExecuteReader();
+                while (reader.Read())
+                {
+                    ogretmenler.Add(
+                        new Ogretmen
+                        {
+                            Id = int.Parse(reader["Id"].ToString()),
+                            FistName = reader["FirstName"].ToString(),
+                            LastName = reader["LastName"].ToString(),
+                            Classroom= reader["Classroom"].ToString()
+                        });
+                }
+
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+            finally
+            {
+                DisConnectDB();
+
+            }
+            return ogretmenler;
+        }
+
     }
 }

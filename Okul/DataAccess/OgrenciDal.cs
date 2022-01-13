@@ -47,5 +47,11 @@ namespace Okul.DataAccess
             string query = $"Update Ogrenci set FirstName='{ogrenci.FistName}',LastName='{ogrenci.LastName}' where Id='{ogrenci.Id}';";
             return DbTools.Con.Execute(query);
         }
+
+        public bool Delete(Ogrenci ogrenci)
+        {
+            string query = $"Delete from Ogrenci where Id ={ogrenci.Id};";
+            return DbTools.Con.Execute(query);
+        }
     }
 }

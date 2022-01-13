@@ -11,6 +11,24 @@ namespace Okul.Controllers
     public class OgrenciController : Controller
     {
         // GET: Ogrenci
+
+        private static Ogrenci _ogrenci { get; set; }
+        public static Ogrenci ogrenci
+        {
+            get
+            {
+                if (_ogrenci ==null)
+                {
+                    _ogrenci = new Ogrenci();
+                   
+                }
+                return _ogrenci;
+            }
+            set
+            {
+                _ogrenci = value;
+            }
+        }
         public ActionResult Index()
         {
             IEnumerable<Ogrenci> listem = OgrenciDal.Current.GetStudents();
@@ -50,6 +68,32 @@ namespace Okul.Controllers
             }
 
             
+        }
+
+        public ActionResult Details(int id)
+        {
+            ogrenci = OgrenciDal.Current.GetStudentById(id);
+            return View(ogrenci);
+        }
+
+        public ActionResult Delete(int id)
+        {
+            ogrenci = OgrenciDal.Current.GetStudentById(id);
+            return View(ogrenci);
+        }
+        [HttpPost]
+        public ActionResult Delete(Ogrenci ogrenci)
+        {
+           bool check= OgrenciDal.Current.Delete(ogrenci);
+            if (check)
+            {
+                return RedirectToAction("Index");
+            }
+            else
+            {
+                TempData["hata"] = "Silme hatası";
+                return RedirectToAction("Delete", new { id = ogrenci.Id });
+            }
         }
     }
 }

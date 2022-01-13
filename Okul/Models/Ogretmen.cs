@@ -10,6 +10,7 @@ namespace Okul.Models
         public int Id { get; set; }
         public string FistName { get; set; }
         public string LastName { get; set; }
-        
+        public string Classroom { get; set; }
+
     }
 }

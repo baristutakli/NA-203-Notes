@@ -1,4 +1,4 @@
-﻿@model Okul.Models.Ogrenci
+﻿@model Okul.Models.Ogretmen
 
 @{
     ViewBag.Title = "Edit";
@@ -12,19 +12,16 @@
     @Html.AntiForgeryToken()
     
 <div class="form-horizontal">
-    <h4>Ogrenci</h4>
-   
-
+    <h4>Ogretmen</h4>
     <hr />
     @Html.ValidationSummary(true, "", new { @class = "text-danger" })
     <div class="form-group">
-   
+
         <div class="col-md-10">
             @Html.HiddenFor(model => model.Id, new { htmlAttributes = new { @class = "form-control" } })
-         
+
         </div>
     </div>
-
     <div class="form-group">
         @Html.LabelFor(model => model.FistName, htmlAttributes: new { @class = "control-label col-md-2" })
         <div class="col-md-10">
@@ -42,6 +39,14 @@
     </div>
 
     <div class="form-group">
+        @Html.LabelFor(model => model.Classroom, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.Classroom, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Classroom, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
         <div class="col-md-offset-2 col-md-10">
             <input type="submit" value="Save" class="btn btn-default" />
         </div>
@@ -50,5 +55,5 @@
 }
 
 <div>
-    @Html.ActionLink("Back to List", "Index",new { @class="btn btn-info"})
+    @Html.ActionLink("Anasayfa", "Index", new { @class = "btn btn-info" })
 </div>
