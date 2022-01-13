@@ -53,5 +53,10 @@ namespace Okul.DataAccess
             string query = $"Delete from Ogrenci where Id ={ogrenci.Id};";
             return DbTools.Con.Execute(query);
         }
+        public List<Ogrenci> Search(string arananKelime)
+        {
+            string query = $"select * from Ogrenci where FirstName like '%{arananKelime}%' or LastName like '{arananKelime}' ;";
+            return DbTools.Con.Read(query);
+        }
     }
 }

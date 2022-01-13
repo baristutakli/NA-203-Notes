@@ -95,5 +95,12 @@ namespace Okul.Controllers
                 return RedirectToAction("Delete", new { id = ogrenci.Id });
             }
         }
+
+        [HttpPost]
+        public ActionResult Ara(string arananKelime)
+        {
+            var result = OgrenciDal.Current.Search(arananKelime);
+            return View(result);
+        }
     }
 }
