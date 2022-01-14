@@ -24,7 +24,7 @@ namespace Okul.DataAccess
         }
         public int Create(Ogrenci ogrenci)
         {
-            string query = $"Insert into Ogrenci (FirstName, LastName,TeacherId) VALUES  ('{ogrenci.FistName}','{ogrenci.LastName}','{ogrenci.TeacherId}');select CAST(scope_identity() as int);";
+            string query = $"Insert into Ogrenci (FirstName, LastName,TeacherId,PhotoAdress) VALUES  ('{ogrenci.FistName}','{ogrenci.LastName}','{ogrenci.TeacherId}','{ogrenci.PhotoAdress}');select CAST(scope_identity() as int);";
 
             int insertedsId= DbTools.Con.Create(query);
             return insertedsId;
@@ -45,7 +45,7 @@ namespace Okul.DataAccess
 
         public bool Update(Ogrenci ogrenci)
         {
-            string query = $"Update Ogrenci set FirstName='{ogrenci.FistName}',LastName='{ogrenci.LastName}',TeacherId=,'{ogrenci.TeacherId}' where Id='{ogrenci.Id}';";
+            string query = $"Update Ogrenci set FirstName='{ogrenci.FistName}',LastName='{ogrenci.LastName}',TeacherId='{ogrenci.TeacherId}',PhotoAdress='{ogrenci.PhotoAdress}' where Id='{ogrenci.Id}';";
             return DbTools.Con.Execute(query);
         }
 

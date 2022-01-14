@@ -48,20 +48,10 @@ namespace Okul.Controllers
         [HttpPost]
         public ActionResult Create(Ogrenci ogrenci)
         {
-            
-            int insertedId = OgrenciDal.Current.Create(ogrenci);
-            if (insertedId>0)
-            {
-                // KAydetme başarılı fotograf yükle
-                string uploadedTime =DateTime.Now.ToString();
-                
-                string path = Path.Combine(Server.MapPath("~/Assets/Student"),Path.GetFileName(ogrenci.Photo.FileName));
-                ogrenci.Photo.SaveAs(path);
-                ogrenci.PhotoAdress = path;
-                OgrenciDal.Current.Update(ogrenci);
-                
-            }
-            
+
+            int insertedId =OgrenciDal.Current.Create(ogrenci);
+            ogrenci.Id = insertedId;
+            UploadPhoto(ogrenci);
             TempData["insertedId"] = insertedId;
             return RedirectToAction("Index");
         }        
@@ -118,6 +108,32 @@ namespace Okul.Controllers
         {
             var result = OgrenciDal.Current.Search(arananKelime);
             return View(result);
+        }
+
+        [NonAction] //bu metod controller actionı değil
+        private void UploadPhoto(Ogrenci ogrenci)
+        {
+            string uploadedTime = DateTime.Now.ToString();
+            string mainPath = Server.MapPath($"~/Assets/Student/{ogrenci.Id}/");
+
+            if (!Directory.Exists(mainPath))
+            {
+                Directory.CreateDirectory(mainPath);
+            }
+            string path = Path.Combine(mainPath, Path.GetFileName(ogrenci.Photo.FileName));
+            ogrenci.PhotoAdress = ogrenci.Id + "/" + ogrenci.Photo.FileName;
+            try
+            {
+
+                ogrenci.Photo.SaveAs(path);
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+
+              OgrenciDal.Current.Update(ogrenci);
         }
     }
 }
