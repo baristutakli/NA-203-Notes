@@ -1,7 +1,7 @@
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Okul\bin\roslyn\csc.exe
 C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Okul\bin\Okul.dll.config
 C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Okul\bin\Okul.dll
 C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Okul\bin\Okul.pdb
-C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Okul\bin\roslyn\csc.exe
 C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Okul\bin\roslyn\csc.exe.config
 C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Okul\bin\roslyn\csc.rsp
 C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Okul\bin\roslyn\csi.exe
@@ -69,4 +69,3 @@ C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Okul\obj\Debug\Okul.csproj.CoreComp
 C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Okul\obj\Debug\Okul.csproj.CopyComplete
 C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Okul\obj\Debug\Okul.dll
 C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Okul\obj\Debug\Okul.pdb
-C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Okul\obj\Debug\Okul.csproj.AssemblyReference.cache

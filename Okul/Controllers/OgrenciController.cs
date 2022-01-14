@@ -40,8 +40,10 @@ namespace Okul.Controllers
         // Get: Ogrenci create form
         public ActionResult Create()
         {
-            
-            return View();
+            List<Ogretmen> teachers = OgretmenDal.Current.GetTeachers();
+            ViewBag.teachers = teachers;
+            Ogrenci ogr = new Ogrenci();
+            return View(ogr);
         }
         [HttpPost]
         public ActionResult Create(Ogrenci ogrenci)
