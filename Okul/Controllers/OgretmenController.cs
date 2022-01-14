@@ -93,6 +93,12 @@ namespace Okul.Controllers
             }
         }
 
+        [HttpPost]
+        public ActionResult Ara(string arananKelime)
+        {
+            var result = OgretmenDal.Current.Search(arananKelime);
+            return View(result);
+        }
 
     }
 }

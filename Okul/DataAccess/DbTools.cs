@@ -136,7 +136,8 @@ namespace Okul.DataAccess
                         {
                             Id = int.Parse(reader["Id"].ToString()),
                             FistName = reader["FirstName"].ToString(),
-                            LastName = reader["LastName"].ToString()
+                            LastName = reader["LastName"].ToString(),
+                            TeacherId = int.Parse(reader["TeacherId"].ToString())
                         });
                 }
 

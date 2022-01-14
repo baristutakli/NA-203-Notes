@@ -65,8 +65,8 @@ C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Okul\bin\System.Web.Webpages.Razor.
 C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Okul\bin\System.Web.Helpers.xml
 C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Okul\bin\System.Web.Mvc.xml
 C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Okul\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Okul\obj\Debug\Okul.csproj.AssemblyReference.cache
 C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Okul\obj\Debug\Okul.csproj.CoreCompileInputs.cache
 C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Okul\obj\Debug\Okul.csproj.CopyComplete
 C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Okul\obj\Debug\Okul.dll
 C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Okul\obj\Debug\Okul.pdb
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Okul\obj\Debug\Okul.csproj.AssemblyReference.cache

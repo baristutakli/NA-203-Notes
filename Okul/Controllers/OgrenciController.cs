@@ -1,4 +1,5 @@
 ﻿using Okul.DataAccess;
+
 using Okul.Models;
 using System;
 using System.Collections.Generic;
@@ -32,13 +33,14 @@ namespace Okul.Controllers
         public ActionResult Index()
         {
             IEnumerable<Ogrenci> listem = OgrenciDal.Current.GetStudents();
+           
             return View(listem);
         }
 
         // Get: Ogrenci create form
         public ActionResult Create()
         {
-            Ogrenci ogrenci = new Ogrenci();
+            
             return View();
         }
         [HttpPost]
