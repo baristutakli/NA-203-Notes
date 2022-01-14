@@ -35,5 +35,7 @@ namespace Okul.Models
             set { _teacher = value;
                 _TeacherId = value.Id;
             } }
+        public HttpPostedFileBase Photo { get; set; }
+        public string PhotoAdress { get; set; }
     }
 }

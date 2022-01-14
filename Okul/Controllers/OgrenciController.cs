@@ -1,5 +1,5 @@
 ﻿using Okul.DataAccess;
-
+using System.IO;
 using Okul.Models;
 using System;
 using System.Collections.Generic;
@@ -48,7 +48,20 @@ namespace Okul.Controllers
         [HttpPost]
         public ActionResult Create(Ogrenci ogrenci)
         {
+            
             int insertedId = OgrenciDal.Current.Create(ogrenci);
+            if (insertedId>0)
+            {
+                // KAydetme başarılı fotograf yükle
+                string uploadedTime =DateTime.Now.ToString();
+                
+                string path = Path.Combine(Server.MapPath("~/Assets/Student"),Path.GetFileName(ogrenci.Photo.FileName));
+                ogrenci.Photo.SaveAs(path);
+                ogrenci.PhotoAdress = path;
+                OgrenciDal.Current.Update(ogrenci);
+                
+            }
+            
             TempData["insertedId"] = insertedId;
             return RedirectToAction("Index");
         }        

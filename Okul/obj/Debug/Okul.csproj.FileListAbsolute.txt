@@ -69,3 +69,4 @@ C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Okul\obj\Debug\Okul.csproj.CoreComp
 C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Okul\obj\Debug\Okul.csproj.CopyComplete
 C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Okul\obj\Debug\Okul.dll
 C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Okul\obj\Debug\Okul.pdb
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\Okul\obj\Debug\Okul.csproj.AssemblyReference.cache
