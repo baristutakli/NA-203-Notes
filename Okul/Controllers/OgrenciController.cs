@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using System.Web.Security;
 
 namespace Okul.Controllers
 {
@@ -36,7 +37,24 @@ namespace Okul.Controllers
            
             return View(listem);
         }
+        public ActionResult Login()
+        {
+            return View();
+        }
+        // role based auth
+        [HttpPost]
+        public ActionResult Login(string username,string password)
+        {
+            if (username=="admin" && password=="admin123")
+            {
+                FormsAuthentication.SetAuthCookie("admin", false);
+                return RedirectToAction("Create");
+            }
+           return RedirectToAction("Login");
+        }
 
+
+        [Authorize]
         // Get: Ogrenci create form
         public ActionResult Create()
         {
@@ -66,6 +84,11 @@ namespace Okul.Controllers
         {
             if (OgrenciDal.Current.Update(ogrenci))
             {
+                if (ogrenci.Photo!=null)
+                {
+                    UploadPhoto(ogrenci);
+                }
+                
                 return RedirectToAction("Index");
             }
             else
@@ -120,11 +143,11 @@ namespace Okul.Controllers
             {
                 Directory.CreateDirectory(mainPath);
             }
-            string path = Path.Combine(mainPath, Path.GetFileName(ogrenci.Photo.FileName));
-            ogrenci.PhotoAdress = ogrenci.Id + "/" + ogrenci.Photo.FileName;
+            
             try
             {
-
+                string path = Path.Combine(mainPath, Path.GetFileName(ogrenci.Photo.FileName));
+                ogrenci.PhotoAdress = ogrenci.Id + "/" + ogrenci.Photo.FileName;
                 ogrenci.Photo.SaveAs(path);
             }
             catch (Exception)
