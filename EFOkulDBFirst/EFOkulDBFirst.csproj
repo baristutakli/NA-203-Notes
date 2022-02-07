@@ -182,6 +182,7 @@
     <Content Include="Views\Ogretmen\Details.cshtml" />
     <Content Include="Views\Ogretmen\Edit.cshtml" />
     <Content Include="Views\Ogretmen\Index.cshtml" />
+    <Content Include="Views\Ogretmen\Search.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

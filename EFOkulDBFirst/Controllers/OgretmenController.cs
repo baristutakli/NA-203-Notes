@@ -58,6 +58,15 @@ namespace EFOkulDBFirst.Controllers
             return View(ogretmen);
         }
 
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Search(string searchterm)
+        {
+            var ogrenciler = db.Ogrenci.Where(o => o.FirstName == searchterm || o.LastName == searchterm);
+            return View(ogrenciler);
+        }
+
         // GET: Ogretmen/Edit/5
         public ActionResult Edit(int? id)
         {
