@@ -1,9 +1,8 @@
-﻿@model IEnumerable<EFOkulDBFirst.Models.Ogrenci>
+﻿@model IEnumerable<EFOkulDBFirst.Models.Ogretmen>
 
 @{
     ViewBag.Title = "Index";
-    ViewBag.searchUrl = "/Ogrenci/Search";
-    string fullname = "";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 <h2>Index</h2>
@@ -14,16 +13,13 @@
 <table class="table">
     <tr>
         <th>
-            @Html.DisplayNameFor(model => model.Ogretmen.FirstName)
-        </th>
-        <th>
             @Html.DisplayNameFor(model => model.FirstName)
         </th>
         <th>
             @Html.DisplayNameFor(model => model.LastName)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.PhotoAdress)
+            @Html.DisplayNameFor(model => model.Classroom)
         </th>
         <th></th>
     </tr>
@@ -31,28 +27,20 @@
 @foreach (var item in Model) {
     <tr>
         <td>
-            @Html.DisplayFor(modelItem => item.Ogretmen.FirstName)
-        </td>
-        <td>
             @Html.DisplayFor(modelItem => item.FirstName)
-           
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.LastName)
-            
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.PhotoAdress)
+            @Html.DisplayFor(modelItem => item.Classroom)
         </td>
-
         <td>
             @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
             @Html.ActionLink("Details", "Details", new { id=item.Id }) |
             @Html.ActionLink("Delete", "Delete", new { id=item.Id })
         </td>
     </tr>
-    
 }
 
 </table>
-

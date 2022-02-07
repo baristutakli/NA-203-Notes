@@ -80,3 +80,4 @@ C:\Users\kbez1\Documents\kodlar\NA-203-Notes\EFOkulDBFirst\obj\Debug\EFOkulDBFir
 C:\Users\kbez1\Documents\kodlar\NA-203-Notes\EFOkulDBFirst\obj\Debug\EFOkulDBFirst.csproj.CopyComplete
 C:\Users\kbez1\Documents\kodlar\NA-203-Notes\EFOkulDBFirst\obj\Debug\EFOkulDBFirst.dll
 C:\Users\kbez1\Documents\kodlar\NA-203-Notes\EFOkulDBFirst\obj\Debug\EFOkulDBFirst.pdb
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\EFOkulDBFirst\obj\Debug\EFOkulDBFirst.csproj.AssemblyReference.cache

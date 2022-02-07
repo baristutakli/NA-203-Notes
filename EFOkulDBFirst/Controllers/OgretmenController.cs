@@ -10,121 +10,107 @@ using EFOkulDBFirst.Models;
 
 namespace EFOkulDBFirst.Controllers
 {
-    public class OgrenciController : Controller
+    public class OgretmenController : Controller
     {
         private OkulContext db = new OkulContext();
 
-        // GET: Ogrenci
+        // GET: Ogretmen
         public ActionResult Index()
         {
-            var ogrenci = db.Ogrenci.Include(o => o.Ogretmen);
-            return View(ogrenci.ToList());
+            return View(db.Ogretmen.ToList());
         }
 
-        // GET: Ogrenci/Details/5
+        // GET: Ogretmen/Details/5
         public ActionResult Details(int? id)
         {
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Ogrenci ogrenci = db.Ogrenci.Find(id);
-            if (ogrenci == null)
+            Ogretmen ogretmen = db.Ogretmen.Find(id);
+            if (ogretmen == null)
             {
                 return HttpNotFound();
             }
-            return View(ogrenci);
+            return View(ogretmen);
         }
 
-        // GET: Ogrenci/Create
+        // GET: Ogretmen/Create
         public ActionResult Create()
         {
-            ViewBag.TeacherId = new SelectList(db.Ogretmen, "Id", "FirstName");
             return View();
         }
 
-        // POST: Ogrenci/Create
+        // POST: Ogretmen/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to, for 
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Id,FirstName,LastName,TeacherId,PhotoAdress")] Ogrenci ogrenci)
+        public ActionResult Create([Bind(Include = "Id,FirstName,LastName,Classroom")] Ogretmen ogretmen)
         {
             if (ModelState.IsValid)
             {
-                db.Ogrenci.Add(ogrenci);
+                db.Ogretmen.Add(ogretmen);
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
 
-            ViewBag.TeacherId = new SelectList(db.Ogretmen, "Id", "FirstName", ogrenci.TeacherId);
-            return View(ogrenci);
+            return View(ogretmen);
         }
 
-
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Search(string searchterm)
-        {
-            var ogrenciler = db.Ogrenci.Where(o => o.FirstName == searchterm || o.LastName == searchterm);
-            return View(ogrenciler);
-        }
-
-        // GET: Ogrenci/Edit/5
+        // GET: Ogretmen/Edit/5
         public ActionResult Edit(int? id)
         {
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Ogrenci ogrenci = db.Ogrenci.Find(id);
-            if (ogrenci == null)
+            Ogretmen ogretmen = db.Ogretmen.Find(id);
+            if (ogretmen == null)
             {
                 return HttpNotFound();
             }
-            ViewBag.TeacherId = new SelectList(db.Ogretmen, "Id", "FirstName", ogrenci.TeacherId);
-            return View(ogrenci);
+            return View(ogretmen);
         }
 
-        // POST: Ogrenci/Edit/5
+        // POST: Ogretmen/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to, for 
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "Id,FirstName,LastName,TeacherId,PhotoAdress")] Ogrenci ogrenci)
+        public ActionResult Edit([Bind(Include = "Id,FirstName,LastName,Classroom")] Ogretmen ogretmen)
         {
             if (ModelState.IsValid)
             {
-                db.Entry(ogrenci).State = EntityState.Modified;
+                db.Entry(ogretmen).State = EntityState.Modified;
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
-            ViewBag.TeacherId = new SelectList(db.Ogretmen, "Id", "FirstName", ogrenci.TeacherId);
-            return View(ogrenci);
+            return View(ogretmen);
         }
 
-        // GET: Ogrenci/Delete/5
+        // GET: Ogretmen/Delete/5
         public ActionResult Delete(int? id)
         {
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Ogrenci ogrenci = db.Ogrenci.Find(id);
-            if (ogrenci == null)
+            Ogretmen ogretmen = db.Ogretmen.Find(id);
+            if (ogretmen == null)
             {
                 return HttpNotFound();
             }
-            return View(ogrenci);
+            return View(ogretmen);
         }
 
-        // POST: Ogrenci/Delete/5
+        // POST: Ogretmen/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
         {
-            Ogrenci ogrenci = db.Ogrenci.Find(id);
-            db.Ogrenci.Remove(ogrenci);
+            Ogretmen ogretmen = db.Ogretmen.Find(id);
+            db.Ogretmen.Remove(ogretmen);
             db.SaveChanges();
             return RedirectToAction("Index");
         }
