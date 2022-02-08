@@ -84,3 +84,4 @@ C:\Users\kbez1\Documents\kodlar\NA-203-Notes\OkulCodeFirstEntitiyFRamework\bin\E
 C:\Users\kbez1\Documents\kodlar\NA-203-Notes\OkulCodeFirstEntitiyFRamework\obj\Debug\OkulCodeFirstEntitiyFRamework.Migrations.Initialmigration.resources
 C:\Users\kbez1\Documents\kodlar\NA-203-Notes\OkulCodeFirstEntitiyFRamework\obj\Debug\OkulCodeFirstEntitiyFRamework.csproj.GenerateResource.cache
 C:\Users\kbez1\Documents\kodlar\NA-203-Notes\OkulCodeFirstEntitiyFRamework\obj\Debug\OkulCodeFirstEntitiyFRamework.Migrations.v1.resources
+C:\Users\kbez1\Documents\kodlar\NA-203-Notes\OkulCodeFirstEntitiyFRamework\obj\Debug\OkulCodeFirstEntitiyFRamework.Migrations.v2.resources

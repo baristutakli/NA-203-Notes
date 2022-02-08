@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace OkulCodeFirstEntitiyFRamework.Models
 {
@@ -11,6 +12,7 @@ namespace OkulCodeFirstEntitiyFRamework.Models
         public int Id { get; set; }
         [MaxLength(50)]
         [Required]
+        [Index]
         public string FirstName { get; set; }
         [MaxLength(50)]
         public string LastName { get; set; }

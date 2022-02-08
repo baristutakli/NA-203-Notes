@@ -39,7 +39,7 @@ namespace OkulCodeFirstEntitiyFRamework.Controllers
         // GET: Students/Create
         public ActionResult Create()
         {
-            ViewBag.InstructorId = new SelectList(db.Instructors, "Id", "Department");
+            ViewBag.InstructorId = new SelectList(db.Instructors, "Id", "Id");
             return View();
         }
 

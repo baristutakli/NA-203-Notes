@@ -142,6 +142,10 @@
     <Compile Include="Migrations\202202080811298_v1.designer.cs">
       <DependentUpon>202202080811298_v1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202202081101275_v2.cs" />
+    <Compile Include="Migrations\202202081101275_v2.Designer.cs">
+      <DependentUpon>202202081101275_v2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Instructor.cs" />
     <Compile Include="Models\OkulContext.cs" />
@@ -218,6 +222,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202202080811298_v1.resx">
       <DependentUpon>202202080811298_v1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202202081101275_v2.resx">
+      <DependentUpon>202202081101275_v2.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
