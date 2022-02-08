@@ -66,8 +66,8 @@ namespace EFOkulDBFirst.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Search(string searchterm)
         {
-            var ogretmenler = db.Ogretmen.Where(o => o.FirstName == searchterm || o.LastName == searchterm);
-            return View(ogretmenler);
+            var ogrenciler = db.Ogrenci.Where(o => o.FirstName == searchterm || o.LastName == searchterm);
+            return View(ogrenciler);
         }
 
         // GET: Ogrenci/Edit/5
